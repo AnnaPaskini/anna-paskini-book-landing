@@ -28,7 +28,6 @@ export default function FooterBlock() {
         <div className="footer-bottom">
           <nav className="footer-nav" aria-label="Footer">
             <a href="#about">About</a>
-            <a href="#blog">Blog</a>
             <a
               href="https://www.amazon.com/author/annapaskini"
               target="_blank"

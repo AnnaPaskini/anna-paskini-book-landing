@@ -106,7 +106,7 @@ export default function FAQBlock() {
   };
 
   return (
-    <section className="faq" aria-labelledby="faq-h2">
+    <section className="faq" id="faq" aria-labelledby="faq-h2">
       <header className="section-heading">
         <span className="label">Common questions</span>
         <h2 id="faq-h2">Answers, honestly</h2>

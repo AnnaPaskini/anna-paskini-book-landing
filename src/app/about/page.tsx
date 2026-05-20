@@ -46,12 +46,25 @@ export default function AboutPage() {
       <SiteHeader />
       <main id="main" style={{ flex: 1 }}>
         <article className="about-page">
+          {/* Flower — positioned relative to the entire article, not just hero */}
+          <div className="about-flower-wrapper" aria-hidden="true">
+            <Image
+              src="/images/Flower_brown.png"
+              alt=""
+              width={600}
+              height={600}
+              className="about-flower"
+              style={{ width: "280px", height: "auto" }}
+              priority
+            />
+          </div>
+
           <div className="about-hero">
             <div className="container">
               <span className="label">The author</span>
               <h1>About Anna Paskini</h1>
               <p className="about-lede">
-                I’m not a clinician. I write activity books for men with
+                I'm not a clinician. I write activity books for men with
                 dementia - the kind a daughter can open at the kitchen table on
                 a Sunday afternoon, when she has already asked about the
                 weather, the photo album is closed, and the next four hours look
