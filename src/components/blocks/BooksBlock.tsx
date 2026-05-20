@@ -13,22 +13,23 @@ export default function BooksBlock() {
 
       <div className="books-grid">
         <article className="book-card">
-          <div className="book-cover v1 has-image is-3d">
-            <Image
-              src="/images/vol-1-3d.png"
-              alt="Engines & Outdoors - Vol. 1 cover"
-              width={1585}
-              height={1780}
-              sizes="(min-width: 768px) 480px, 90vw"
-              className="cover-image"
-              loading="eager"
-            />
-          </div>
+
           <h3>Vol. 1 - Engines &amp; Outdoors</h3>
           <p className="book-description">
             Cars, tools, fishing, the outdoors. 98 pages of activities, set in
             the 1970s-80s.
           </p>
+          <div className="book-interior-wrapper" style={{ marginBottom: "2rem", width: "100%", maxWidth: "360px", alignSelf: "center" }}>
+            <Image
+              src="/images/vol-1-3d-2.png"
+              alt="Engines & Outdoors - Vol. 1 interior"
+              width={1278}
+              height={1336}
+              sizes="(min-width: 768px) 360px, 90vw"
+              className="interior-image"
+              style={{ width: "100%", height: "auto", aspectRatio: "1278 / 1336", objectFit: "contain", display: "block", transform: "scale(1.1) rotate(5deg)" }}
+            />
+          </div>
           <a
             href={amazonLink(VOL1_URL, "landing-block-3")}
             className="btn btn-primary"
@@ -40,21 +41,23 @@ export default function BooksBlock() {
         </article>
 
         <article className="book-card">
-          <div className="book-cover v1 has-image is-3d">
-            <Image
-              src="/images/vol-2-3d.png"
-              alt="Memories & Heritage - Vol. 2 cover"
-              width={1549}
-              height={2130}
-              sizes="(min-width: 768px) 480px, 90vw"
-              className="cover-image"
-              loading="eager"
-            />
-          </div>
+
           <h3>Vol. 2 - Memories &amp; Heritage</h3>
           <p className="book-description">
-            Music, family, service, the good old days. 98 pages of activities.
+            Music, family, service, the good old days. 98 pages of activities, set in
+            the 1970s-80s.
           </p>
+          <div className="book-interior-wrapper" style={{ marginBottom: "2rem", width: "100%", maxWidth: "360px", alignSelf: "center" }}>
+            <Image
+              src="/images/vol-2-3d-2.png"
+              alt="Memories & Heritage - Vol. 2 interior"
+              width={1278}
+              height={1336}
+              sizes="(min-width: 768px) 360px, 90vw"
+              className="interior-image"
+              style={{ width: "100%", height: "auto", aspectRatio: "1278 / 1336", objectFit: "contain", display: "block" }}
+            />
+          </div>
           <a
             href={amazonLink(VOL2_URL, "landing-block-3")}
             className="btn btn-primary"
