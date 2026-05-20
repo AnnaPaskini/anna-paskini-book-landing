@@ -13,15 +13,22 @@ export default function HeroBlock() {
             What to do during a dementia visit - a free 15-minute playbook
           </h1>
           <p className="hero-subhead">
-            For adult children caring for a parent with dementia from a distance.
+            A small guide for the daughter, the son, the grandchild, or the friend who is about to walk into the room. Questions that work when “how are you?” doesn’t.
           </p>
 
-          <EmailForm
-            formId="hero-email"
-            label="Get the free 15-Minute Visit Playbook"
-            ctaText="Send me the playbook →"
-            microcopy="One PDF, delivered in 60 seconds. No spam. No regular newsletter - just the playbook."
-          />
+          <div className="hero-cta-group">
+            <EmailForm
+              formId="hero-email"
+              label="Get the free 15-Minute Visit Playbook"
+              ctaText="Send me the playbook →"
+              microcopy="No spam. No regular newsletter - just the playbook."
+            />
+            <div style={{ marginTop: "1rem" }}>
+              <a href="/playbook" style={{ fontSize: "var(--text-small)", color: "var(--color-primary)", textDecoration: "underline", fontWeight: 500 }}>
+                Or just read it online →
+              </a>
+            </div>
+          </div>
         </div>
 
         <div className="hero-right">
@@ -41,18 +48,25 @@ export default function HeroBlock() {
           >
             <div className="mockup-label">The Playbook</div>
             <div className="mockup-title">
-              The 15-Minute<br />Visit Playbook
+              The 15-Minute<br />Visit
               <em>A short guide for adult-child caregivers</em>
             </div>
             <div className="mockup-foot">Anna Paskini · 2026</div>
           </div>
 
-          <EmailForm
-            formId="hero-email-m"
-            label="Get the free 15-Minute Visit Playbook"
-            ctaText="Send me the playbook →"
-            microcopy="One PDF, delivered in 60 seconds. No spam. No regular newsletter - just the playbook."
-          />
+          <div className="hero-cta-group">
+            <EmailForm
+              formId="hero-email-m"
+              label="Get the free 15-Minute Visit Playbook"
+              ctaText="Send me the playbook →"
+              microcopy="One PDF, delivered in 60 seconds. No spam. No regular newsletter - just the playbook."
+            />
+            <div style={{ marginTop: "1rem" }}>
+              <a href="/playbook" style={{ fontSize: "var(--text-small)", color: "var(--color-primary)", textDecoration: "underline", fontWeight: 500 }}>
+                Or just read it online →
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>

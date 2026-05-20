@@ -19,7 +19,7 @@ export default function FooterBlock() {
             formId="footer-email"
             label="Your email"
             ctaText="Send →"
-            microcopy="One PDF. No spam. Unsubscribe in one click."
+            microcopy="One PDF. No newsletters. No subcribtion."
           />
         </div>
 

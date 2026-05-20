@@ -7,8 +7,12 @@ export default function BooksBlock() {
       <header className="section-heading">
         <span className="label">The book series</span>
         <h2 id="books-h2">
-          The activities the playbook references come from this series.
+          Ready for activities, not just structure?
         </h2>
+        <p
+          id="books-h3">
+          These books prompt conversations about things from his life that you can connect over.
+        </p>
       </header>
 
       <div className="books-grid">
@@ -36,7 +40,7 @@ export default function BooksBlock() {
             target="_blank"
             rel="noopener"
           >
-            See on Amazon →
+            Check it out on Amazon →
           </a>
         </article>
 
@@ -64,7 +68,7 @@ export default function BooksBlock() {
             target="_blank"
             rel="noopener"
           >
-            See on Amazon →
+            Check it out on Amazon →
           </a>
         </article>
       </div>

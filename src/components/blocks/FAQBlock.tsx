@@ -11,8 +11,7 @@ const faqs: FAQ[] = [
       <p>
         <strong>Yes - one PDF, delivered to your email in 60 seconds.</strong>{" "}
         No credit card, no auto-enrolled paid newsletter, no upsell sequence.
-        You can unsubscribe from the email list with one click after receiving
-        the playbook.
+        You are not subscribed to anything by downloading the PDF, other than your free copy of the PDF.
       </p>
     ),
     aText:
@@ -23,12 +22,10 @@ const faqs: FAQ[] = [
     a: (
       <p>
         <strong>
-          Adult children, usually 35-55, caring for a parent with early-to-mid
+          Adult children or other family caregivers, usually 35-65, caring for a parent with early-to-mid
           stage dementia - most often from a distance.
         </strong>{" "}
-        The playbook works for any adult-child caregiver, but it’s written for
-        the person who flies in on weekends or holidays and doesn’t quite know
-        how to fill the time.
+        The playbook / guide works for any adult caregiver, who seeks a structured support on how to get the visit under control, and have meaningful interactions.
       </p>
     ),
     aText:
@@ -69,12 +66,11 @@ const faqs: FAQ[] = [
       "The series is written specifically for men - the activities, references, and imagery are calibrated to a man’s life experience in the 1970s-80s. Many caregivers tell us the methodology adapts well to women too, but if you’re caring for a mother and want activities calibrated to her life, this isn’t the right book yet. A women’s series is in progress.",
   },
   {
-    q: "Where can I buy the books?",
+    q: "Where can I buy your books?",
     a: (
       <p>
         <strong>
-          Both volumes are on Amazon as paperbacks, $12.99 each.
-        </strong>{" "}
+          Both volumes are on Amazon as paperbacks, links are attached to the book descriptions on this page.        </strong>{" "}
         Amazon ships to most countries through their international fulfilment
         network. If Amazon doesn’t ship to your country, write to us and we’ll
         arrange a direct PDF copy.
@@ -83,22 +79,7 @@ const faqs: FAQ[] = [
     aText:
       "Both volumes are on Amazon as paperbacks, $12.99 each. Amazon ships to most countries through their international fulfilment network. If Amazon doesn’t ship to your country, write to us and we’ll arrange a direct PDF copy.",
   },
-  {
-    q: "I subscribed but never got the PDF. What now?",
-    a: (
-      <p>
-        <strong>
-          Check your spam or promotions folder first - the email comes from
-          hello@annapaskini.com.
-        </strong>{" "}
-        If it’s not there within 5 minutes, you may need to confirm your
-        subscription via the double opt-in email we send first. If you still
-        can’t find it, email us directly and we’ll send the PDF manually.
-      </p>
-    ),
-    aText:
-      "Check your spam or promotions folder first - the email comes from hello@annapaskini.com. If it’s not there within 5 minutes, you may need to confirm your subscription via the double opt-in email we send first. If you still can’t find it, email us directly and we’ll send the PDF manually.",
-  },
+
 ];
 
 export default function FAQBlock() {

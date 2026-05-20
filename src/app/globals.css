@@ -553,14 +553,14 @@ p {
 
 .hero-flower {
   position: absolute;
-  width: 220px;
+  width: 320px;
   height: auto;
-  top: 90px;
-  right: -20px;
+  top: 70px;
+  right: -40px;
   left: auto;
   transform: rotate(-32deg);
   transform-origin: top right;
-  opacity: 0.6;
+  opacity: 1;
   pointer-events: none;
   z-index: 0;
   user-select: none;
@@ -568,9 +568,9 @@ p {
 
 @media (min-width: 1024px) {
   .hero-flower {
-    width: 300px;
-    top: 110px;
-    right: -60px;
+    width: 450px;
+    top: 50px;
+    right: -100px;
     transform: rotate(-30deg);
   }
 }
@@ -581,20 +581,19 @@ p {
   z-index: 1;
 }
 
-/* CSS-only book mockup */
+/* CSS-only PDF mockup */
 .mockup {
   width: 100%;
   max-width: 320px;
   aspect-ratio: 4/5;
-  border-radius: 0.5rem;
-  background: linear-gradient(135deg, #dbe4f1 0%, #c6d2e7 100%);
+  border-radius: 0.25rem;
+  background: linear-gradient(135deg, #e5ece6 0%, #cfdbd0 100%);
   position: relative;
   overflow: hidden;
   box-shadow:
-    0 1px 0 rgba(255, 255, 255, 0.6) inset,
-    -8px 8px 24px -8px rgba(26, 31, 46, 0.18),
-    0 24px 60px -20px rgba(26, 31, 46, 0.25);
-  transform: rotate(-2deg);
+    0 1px 0 rgba(255, 255, 255, 0.8) inset,
+    0 12px 32px rgba(26, 31, 46, 0.15),
+    0 24px 64px rgba(26, 31, 46, 0.1);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -611,18 +610,8 @@ p {
   content: "";
   position: absolute;
   inset: 0;
-  background: repeating-linear-gradient(180deg, transparent 0 22px, rgba(26, 31, 46, 0.04) 22px 23px);
+  background: repeating-linear-gradient(180deg, transparent 0 22px, rgba(26, 31, 46, 0.02) 22px 23px);
   pointer-events: none;
-}
-
-.mockup::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 8px;
-  background: linear-gradient(90deg, rgba(26, 31, 46, 0.18), transparent);
 }
 
 .mockup-label {
@@ -720,7 +709,7 @@ p {
 
 @media (min-width: 1024px) {
   .section-heading {
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
   }
 }
 
@@ -732,7 +721,7 @@ p {
   margin: 0 auto;
   padding-inline: var(--space-page-x);
   margin-bottom: 3rem;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .zigzag-row:last-child {
@@ -1196,7 +1185,7 @@ p {
    ───────────────────────────────────────────────────────────── */
 .author {
   padding: var(--space-block-y) 0;
-  background: var(--color-surface);
+  background: var(--color-primary-soft);
 }
 
 @media (min-width: 1024px) {
@@ -1770,4 +1759,90 @@ body[data-density="compact"] {
 body[data-density="comfy"] {
   --space-block-y: 5rem;
   --space-block-y-desktop: 9rem;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   PDF Playbook Styling
+   ───────────────────────────────────────────────────────────── */
+.playbook-article {
+  background-color: #f6f5f3;
+  color: #333333;
+  padding: 4rem 1rem;
+}
+
+@media (min-width: 1024px) {
+  .playbook-article {
+    padding: 6rem 2rem;
+  }
+}
+
+.playbook-container {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.playbook-article h1,
+.playbook-article h2,
+.playbook-article h3 {
+  color: #b83a24;
+  font-family: var(--font-sans);
+}
+
+.playbook-article h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.playbook-article h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-top: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.playbook-article h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  color: #333333; /* Subheadings are charcoal */
+}
+
+.playbook-article p,
+.playbook-article li {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  font-family: var(--font-sans);
+}
+
+.playbook-cover-sub {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #555555;
+  margin-bottom: 4rem;
+}
+
+.playbook-callout {
+  background-color: #e5ece6;
+  border-left: 4px solid #7c9177;
+  padding: 1.25rem 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+}
+
+.playbook-callout p {
+  margin-bottom: 0;
+  font-size: 1.125rem;
+  color: #333333;
+}
+
+.playbook-author-block {
+  margin-top: 5rem;
+  padding-top: 2rem;
+  border-top: 1px solid #dcdcdc;
+  font-style: italic;
+  font-size: 1rem;
 }

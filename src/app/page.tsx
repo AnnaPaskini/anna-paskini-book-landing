@@ -2,7 +2,7 @@ import SiteHeader from "@/components/SiteHeader";
 import HeroBlock from "@/components/blocks/HeroBlock";
 import PlaybookContentBlock from "@/components/blocks/PlaybookContentBlock";
 import BooksBlock from "@/components/blocks/BooksBlock";
-import SecondAmazonPushBlock from "@/components/blocks/SecondAmazonPushBlock";
+
 import AuthorBlock from "@/components/blocks/AuthorBlock";
 import FAQBlock from "@/components/blocks/FAQBlock";
 import FooterBlock from "@/components/blocks/FooterBlock";
@@ -33,7 +33,6 @@ export default function Home() {
         <HeroBlock />
         <PlaybookContentBlock />
         <BooksBlock />
-        <SecondAmazonPushBlock />
         <AuthorBlock />
         <FAQBlock />
       </main>
