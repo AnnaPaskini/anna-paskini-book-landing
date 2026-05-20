@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Next.js dev server (paskini-web)",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["-C", "/Users/anna/paskini-web", "dev"],
+      "port": 3000
+    }
+  ]
+}
