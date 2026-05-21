@@ -496,6 +496,30 @@ export default function PlaybookPage() {
                     </a>
                   </div>
                 </div>
+
+                <div style={{
+                  backgroundColor: "var(--color-surface-elevated)",
+                  border: "1px solid var(--color-border)",
+                  borderRadius: "12px",
+                  padding: "1.75rem 2rem",
+                  marginTop: "3rem",
+                  marginBottom: "0",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.03)",
+                  textAlign: "center",
+                  maxWidth: "680px",
+                  marginInline: "auto"
+                }}>
+                  <p style={{
+                    fontSize: "1.0625rem",
+                    lineHeight: "1.6",
+                    color: "var(--color-text-strong)",
+                    fontFamily: "var(--font-sans)",
+                    margin: 0
+                  }}>
+                    Each book is designed in a warm, retro style, featuring <strong>5 chapters</strong>, each with <strong>18 pages</strong> of memory-evoking activities—including <strong>Trivia</strong>, <strong>Mazes</strong>, <strong>Match the Meaning</strong>, <strong>Word Search</strong>, and <strong>Spot the Difference</strong>—complete with practical <strong>caregiver tips</strong> on every page to help guide the conversation.
+                  </p>
+                </div>
+
               </div>
             </div>
           </section>
