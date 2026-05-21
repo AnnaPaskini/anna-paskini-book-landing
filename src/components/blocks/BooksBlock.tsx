@@ -44,7 +44,7 @@ export default function BooksBlock() {
           </div>
           <a
             href={amazonLink(VOL1_URL, "landing-block-3")}
-            className="btn btn-primary"
+            className="btn btn-green"
             target="_blank"
             rel="noopener"
           >
@@ -80,7 +80,7 @@ export default function BooksBlock() {
           </div>
           <a
             href={amazonLink(VOL2_URL, "landing-block-3")}
-            className="btn btn-primary"
+            className="btn btn-green"
             target="_blank"
             rel="noopener"
           >

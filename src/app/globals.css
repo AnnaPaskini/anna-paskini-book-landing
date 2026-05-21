@@ -339,6 +339,34 @@ p {
   background: color-mix(in oklab, var(--color-primary-soft) 85%, var(--color-primary));
 }
 
+.btn-green {
+  background: #5C8A5F;
+  color: var(--color-text-on-primary);
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.04),
+    0 2px 4px rgba(0, 0, 0, 0.08),
+    0 8px 16px rgba(0, 0, 0, 0.12),
+    0 16px 32px -8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-green:hover {
+  background: #4A7A4D;
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.06),
+    0 4px 8px rgba(0, 0, 0, 0.10),
+    0 12px 24px rgba(0, 0, 0, 0.14),
+    0 20px 40px -8px rgba(0, 0, 0, 0.24);
+}
+
+.btn-green:active {
+  background: #3D6840;
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.04),
+    0 1px 2px rgba(0, 0, 0, 0.08),
+    0 4px 8px rgba(0, 0, 0, 0.10);
+}
+
 .btn:focus-visible {
   outline: 2px solid var(--color-focus-ring);
   outline-offset: 2px;
@@ -1247,7 +1275,7 @@ p {
    ───────────────────────────────────────────────────────────── */
 .author {
   padding: var(--space-block-y) 0;
-  background: var(--color-primary-soft);
+  background: #E5EDE5;
 }
 
 @media (min-width: 1024px) {
