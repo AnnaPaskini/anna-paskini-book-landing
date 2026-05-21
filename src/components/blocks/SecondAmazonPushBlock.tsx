@@ -6,7 +6,7 @@ export default function SecondAmazonPushBlock() {
       <div className="amazon-push-container">
         <h2 id="push-h2">Ready for activities, not just structure?</h2>
         <p>
-          The Playbook gives you a framework for a visit. The books give you
+          The guide gives you a framework for a visit. The books give you
           200+ ready-to-use activities organized by theme - designed
           specifically for men, set in the 1970s-1980s, dignified and never
           childish.

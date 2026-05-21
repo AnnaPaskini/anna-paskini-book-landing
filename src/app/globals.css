@@ -583,11 +583,64 @@ p {
   }
 }
 
-.hero-right>.mockup,
-.hero-right>.email-form {
+.hero-right .mockup,
+.hero-right .mockup-link,
+.hero-right .hero-buttons {
   position: relative;
   z-index: 1;
 }
+
+/* Clickable Mockup Link with Lift & Scale Effect */
+.mockup-link {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  max-width: 320px;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  outline: none;
+  border-radius: 0.25rem;
+}
+
+@media (min-width: 1024px) {
+  .mockup-link {
+    max-width: 380px;
+  }
+}
+
+.mockup-link:hover,
+.mockup-link:focus-visible {
+  transform: translateY(-8px) scale(1.03);
+}
+
+.mockup-link:active {
+  transform: translateY(-2px) scale(1.01);
+}
+
+/* Hero Action Buttons Group */
+.hero-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 320px;
+  margin-top: 1.75rem;
+}
+
+@media (min-width: 1024px) {
+  .hero-buttons {
+    max-width: 380px;
+    margin-top: 2.25rem;
+  }
+}
+
+.hero-buttons .btn {
+  width: 100%;
+  justify-content: center;
+  font-size: 1.05rem;
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+}
+
 
 /* CSS-only PDF mockup */
 .mockup {
@@ -1396,7 +1449,7 @@ p {
 .site-footer {
   background: var(--color-text-strong);
   color: var(--color-surface);
-  padding: var(--space-block-y) 0 2rem;
+  padding: 3rem 0;
   position: relative;
   overflow: hidden;
 }
@@ -1430,7 +1483,7 @@ p {
 
 @media (min-width: 1024px) {
   .site-footer {
-    padding: var(--space-block-y-desktop) 0 2.5rem;
+    padding: 4.5rem 0;
   }
 }
 
@@ -1440,98 +1493,44 @@ p {
   padding-inline: var(--space-page-x);
 }
 
-.footer-nudge {
-  max-width: 560px;
-  margin: 0 auto 3rem;
-  text-align: center;
-}
-
-.footer-nudge>p {
-  font-family: var(--font-serif);
-  font-size: var(--text-h3);
-  color: var(--color-surface);
-  margin-bottom: 1.25rem;
-  font-weight: 500;
-}
-
-.footer-nudge .email-form {
-  background: rgba(255, 255, 255, 0.04);
-  border-color: rgba(255, 255, 255, 0.12);
-  padding: 1.25rem;
-  text-align: left;
-}
-
-.footer-nudge .email-form-label {
-  color: var(--color-surface);
-}
-
-.footer-nudge .email-form-microcopy {
-  color: color-mix(in oklab, var(--color-surface) 60%, transparent);
-}
-
-.footer-nudge .input {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(255, 255, 255, 0.15);
-  color: var(--color-surface);
-}
-
-.footer-nudge .input::placeholder {
-  color: rgba(250, 250, 247, 0.45);
-}
-
-.footer-nudge .input:focus {
-  border-color: #9fb4d8;
-  box-shadow: 0 0 0 3px rgba(91, 124, 184, 0.25);
-}
-
-.footer-divider {
-  height: 1px;
-  background: rgba(250, 250, 247, 0.1);
-  margin: 2rem 0 1.5rem;
-}
-
-.footer-bottom {
+.footer-clean-content {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
   align-items: center;
-  justify-content: space-between;
+  text-align: center;
+  gap: 1.5rem;
 }
 
-@media (min-width: 768px) {
-  .footer-bottom {
-    flex-direction: row;
-    align-items: center;
-  }
+.footer-copyright {
+  font-size: var(--text-small);
+  color: rgba(250, 250, 247, 0.45);
+  letter-spacing: 0.03em;
 }
 
 .footer-nav {
   display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  align-items: center;
-}
-
-@media (min-width: 768px) {
-  .footer-nav {
-    flex-direction: row;
-    gap: 2rem;
-  }
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem 2rem;
 }
 
 .footer-nav a {
   color: rgba(250, 250, 247, 0.75);
   text-decoration: none;
   font-size: var(--text-small);
+  transition: color 0.15s ease;
 }
 
 .footer-nav a:hover {
   color: var(--color-surface);
 }
 
-.footer-copyright {
+.footer-love {
   font-size: var(--text-small);
-  color: rgba(250, 250, 247, 0.45);
+  color: rgba(250, 250, 247, 0.3);
+  margin-top: 0.25rem;
+  letter-spacing: 0.01em;
 }
 
 /* ─────────────────────────────────────────────────────────────
@@ -1731,7 +1730,7 @@ p {
 
 .about-methods .section-heading {
   text-align: left;
-  margin-bottom: 2.5rem;
+  margin-bottom: 0.5rem;
   padding-inline: 0;
 }
 
@@ -1801,30 +1800,94 @@ body[data-density="comfy"] {
   --space-block-y-desktop: 9rem;
 }
 
-/* ─────────────────────────────────────────────────────────────
-   PDF Playbook Styling
-   ───────────────────────────────────────────────────────────── */
-.playbook-article {
-  background-color: #f6f5f3;
-  color: #333333;
-  padding: 4rem 1rem;
+.playbook-page-wrapper {
+  /* Force the playbook page to use the premium sage green color system */
+  --color-primary: #5C8A5F;
+  --color-primary-hover: #4A7A4D;
+  --color-primary-active: #3D6840;
+  --color-primary-soft: #E5EDE5;
+  --color-focus-ring: #5C8A5F;
 }
 
-@media (min-width: 1024px) {
-  .playbook-article {
-    padding: 6rem 2rem;
-  }
+.playbook-article {
+  color: #333333;
+  position: relative;
+  overflow: hidden; /* Clips elements that extend beyond the screen width */
 }
 
 .playbook-container {
   max-width: 860px;
   margin: 0 auto;
+  position: relative;
+  padding-inline: var(--space-page-x);
+}
+
+@media (min-width: 1024px) {
+  .playbook-container {
+    padding-inline: var(--space-page-x-desktop);
+  }
+}
+
+.playbook-section {
+  padding: 3rem 0;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .playbook-section {
+    padding: 5.5rem 0;
+  }
+}
+
+.playbook-section.bg-surface {
+  background-color: var(--color-surface);
+}
+
+.playbook-section.bg-surface-alt {
+  background-color: var(--color-surface-alt);
+}
+
+.playbook-section.bg-primary-soft {
+  background-color: var(--color-primary-soft);
+}
+
+/* Decorative flower wrapper for playbook page to match hero column placement exactly */
+.playbook-flower-wrapper {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: var(--max-width-hero);
+  height: 600px;
+  padding-inline: var(--space-page-x);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.playbook-flower-column {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 1024px) {
+  .playbook-flower-wrapper {
+    padding-inline: var(--space-page-x-desktop);
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 4rem;
+  }
+  
+  .playbook-flower-column {
+    grid-column: 2;
+  }
 }
 
 .playbook-article h1,
 .playbook-article h2,
 .playbook-article h3 {
-  color: #b83a24;
+  color: var(--color-primary);
   font-family: var(--font-sans);
 }
 
@@ -1838,8 +1901,8 @@ body[data-density="comfy"] {
 .playbook-article h2 {
   font-size: 1.75rem;
   font-weight: 700;
-  margin-top: 3.5rem;
-  margin-bottom: 1rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 
 .playbook-article h3 {
@@ -1867,8 +1930,8 @@ body[data-density="comfy"] {
 }
 
 .playbook-callout {
-  background-color: #e5ece6;
-  border-left: 4px solid #7c9177;
+  background-color: var(--color-primary-soft);
+  border-left: 4px solid var(--color-primary);
   padding: 1.25rem 1.5rem;
   margin: 2rem 0;
   font-style: italic;
@@ -1880,10 +1943,117 @@ body[data-density="comfy"] {
   color: #333333;
 }
 
+.playbook-intro-card {
+  background-color: var(--color-surface-alt); /* Cream background from main page */
+  border: 1px solid var(--color-border); /* Clear matching border */
+  border-radius: 1.25rem;
+  padding: 2.25rem 1.75rem;
+  margin: 3rem 0 3.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.01);
+  font-style: italic; /* Make the entire section italic */
+}
+
+@media (min-width: 768px) {
+  .playbook-intro-card {
+    padding: 3.5rem 3.5rem;
+    margin: 3.5rem 0 4rem auto; /* Align / shift to the right */
+    max-width: 680px; /* Narrower width to allow asymmetry */
+  }
+}
+
+.playbook-intro-card h2 {
+  margin-top: 0 !important;
+  color: var(--color-text-strong) !important; /* Clear charcoal text from main page */
+  font-size: 1.45rem;
+  font-style: italic; /* Keep the header italicized as well */
+  margin-bottom: 1.25rem;
+}
+
+.playbook-intro-card p,
+.playbook-intro-card li {
+  font-size: 0.95rem;
+  line-height: var(--leading-relaxed);
+}
+
+.playbook-intro-card .playbook-callout {
+  background-color: transparent;
+  border-left-color: var(--color-border-strong); /* Clear strong border from main page */
+  padding: 0 0 0 1.25rem;
+  margin: 1.5rem 0 0;
+}
+
 .playbook-author-block {
   margin-top: 5rem;
   padding-top: 2rem;
   border-top: 1px solid #dcdcdc;
   font-style: italic;
   font-size: 1rem;
+}
+
+/* Playbook Interactive Book Links with Hover Lift */
+.playbook-book-link {
+  display: block;
+  text-decoration: none;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  overflow: visible !important;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+
+.playbook-book-link:hover,
+.playbook-book-link:focus-visible {
+  transform: translateY(-8px) scale(1.04) !important;
+}
+
+.playbook-book-link:active {
+  transform: translateY(-2px) scale(1.01) !important;
+}
+
+/* Align Volume 1 and Volume 2 visual sizes and adjust rotations & brightness */
+.playbook-book-link.vol1 .interior-image {
+  transform: scale(1.20) rotate(4deg) !important;
+  transform-origin: center center;
+  filter: 
+    brightness(1.02)
+    drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.45)) 
+    drop-shadow(4px 6px 9px rgba(0, 0, 0, 0.28)) 
+    drop-shadow(10px 16px 24px rgba(0, 0, 0, 0.16)) !important;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.3s ease !important;
+}
+
+.playbook-book-link.vol2 .interior-image {
+  transform: scale(1.08) rotate(-2deg) !important;
+  transform-origin: center center;
+  /* Make Volume 2 brighter, higher contrast, and stronger expression */
+  filter: 
+    brightness(1.06) 
+    contrast(1.05) 
+    drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.45)) 
+    drop-shadow(4px 6px 9px rgba(0, 0, 0, 0.28)) 
+    drop-shadow(10px 16px 24px rgba(0, 0, 0, 0.16)) !important;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.3s ease !important;
+}
+
+/* Brighten and intensify on hover for a tactile, responsive feel */
+.playbook-book-link.vol1:hover .interior-image,
+.playbook-book-link.vol1:focus-visible .interior-image {
+  transform: scale(1.24) rotate(6deg) !important;
+  filter: 
+    brightness(1.05)
+    drop-shadow(1px 3px 3px rgba(0, 0, 0, 0.5)) 
+    drop-shadow(6px 10px 14px rgba(0, 0, 0, 0.32)) 
+    drop-shadow(14px 24px 32px rgba(0, 0, 0, 0.2)) !important;
+}
+
+.playbook-book-link.vol2:hover .interior-image,
+.playbook-book-link.vol2:focus-visible .interior-image {
+  transform: scale(1.12) rotate(-4deg) !important;
+  filter: 
+    brightness(1.10) 
+    contrast(1.08) 
+    drop-shadow(1px 3px 3px rgba(0, 0, 0, 0.5)) 
+    drop-shadow(6px 10px 14px rgba(0, 0, 0, 0.32)) 
+    drop-shadow(14px 24px 32px rgba(0, 0, 0, 0.2)) !important;
 }

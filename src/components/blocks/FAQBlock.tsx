@@ -9,13 +9,13 @@ const faqs: FAQ[] = [
     q: "Is the PDF really free, with no upsell trick?",
     a: (
       <p>
-        <strong>Yes - one PDF, delivered to your email in 60 seconds.</strong>{" "}
-        No credit card, no auto-enrolled paid newsletter, no upsell sequence.
-        You are not subscribed to anything by downloading the PDF, other than your free copy of the PDF.
+        <strong>Yes - downloaded directly with one click or read online.</strong>{" "}
+        No email registration, no credit card, no auto-enrolled paid newsletter, no upsell sequence.
+        You can read the entire guide online or save the PDF instantly.
       </p>
     ),
     aText:
-      "Yes - one PDF, delivered to your email in 60 seconds. No credit card, no auto-enrolled paid newsletter, no upsell sequence. You can unsubscribe from the email list with one click after receiving the playbook.",
+      "Yes - one PDF, downloaded directly with one click. No credit card, no auto-enrolled paid newsletter, no upsell sequence. You can download the PDF or read the entire guide online right now without sharing your email.",
   },
   {
     q: "Who is this for?",
@@ -25,11 +25,11 @@ const faqs: FAQ[] = [
           Adult children or other family caregivers, usually 35-65, caring for a parent with early-to-mid
           stage dementia - most often from a distance.
         </strong>{" "}
-        The playbook / guide works for any adult caregiver, who seeks a structured support on how to get the visit under control, and have meaningful interactions.
+        The guide works for any adult caregiver, who seeks structured support on how to get the visit under control and have meaningful interactions.
       </p>
     ),
     aText:
-      "Adult children, usually 35-55, caring for a parent with early-to-mid stage dementia - most often from a distance. The playbook works for any adult-child caregiver, but it’s written for the person who flies in on weekends or holidays and doesn’t quite know how to fill the time.",
+      "Adult children, usually 35-55, caring for a parent with early-to-mid stage dementia - most often from a distance. The guide works for any adult-child caregiver, but it’s written for the person who flies in on weekends or holidays and doesn’t quite know how to fill the time.",
   },
   {
     q: "Is this medical advice?",

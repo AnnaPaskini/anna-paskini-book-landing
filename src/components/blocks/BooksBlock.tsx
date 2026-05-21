@@ -24,15 +24,23 @@ export default function BooksBlock() {
             the 1970s-80s.
           </p>
           <div className="book-interior-wrapper" style={{ marginBottom: "2rem", width: "100%", maxWidth: "360px", alignSelf: "center" }}>
-            <Image
-              src="/images/vol-1-3d-2.png"
-              alt="Engines & Outdoors - Vol. 1 interior"
-              width={1278}
-              height={1336}
-              sizes="(min-width: 768px) 360px, 90vw"
-              className="interior-image"
-              style={{ width: "100%", height: "auto", aspectRatio: "1278 / 1336", objectFit: "contain", display: "block", transform: "scale(1.1) rotate(5deg)" }}
-            />
+            <a
+              href={amazonLink(VOL1_URL, "landing-block-3-image")}
+              target="_blank"
+              rel="noopener"
+              className="book-image-anchor"
+              style={{ display: "block", width: "100%", height: "100%" }}
+            >
+              <Image
+                src="/images/vol-1-3d-2.png"
+                alt="Memory Activities for Men with Dementia book - Volume 1 Engines & Outdoors by Anna Paskini on Amazon"
+                width={1278}
+                height={1336}
+                sizes="(min-width: 768px) 360px, 90vw"
+                className="interior-image"
+                style={{ width: "100%", height: "auto", aspectRatio: "1278 / 1336", objectFit: "contain", display: "block", transform: "scale(1.1) rotate(5deg)" }}
+              />
+            </a>
           </div>
           <a
             href={amazonLink(VOL1_URL, "landing-block-3")}
@@ -52,15 +60,23 @@ export default function BooksBlock() {
             the 1970s-80s.
           </p>
           <div className="book-interior-wrapper" style={{ marginBottom: "2rem", width: "100%", maxWidth: "360px", alignSelf: "center" }}>
-            <Image
-              src="/images/vol-2-3d-2.png"
-              alt="Memories & Heritage - Vol. 2 interior"
-              width={1278}
-              height={1336}
-              sizes="(min-width: 768px) 360px, 90vw"
-              className="interior-image"
-              style={{ width: "100%", height: "auto", aspectRatio: "1278 / 1336", objectFit: "contain", display: "block" }}
-            />
+            <a
+              href={amazonLink(VOL2_URL, "landing-block-3-image")}
+              target="_blank"
+              rel="noopener"
+              className="book-image-anchor"
+              style={{ display: "block", width: "100%", height: "100%" }}
+            >
+              <Image
+                src="/images/vol-2-3d-2.png"
+                alt="Dementia Activity Book for Elderly Men - Volume 2 Memories & Heritage by Anna Paskini on Amazon"
+                width={1278}
+                height={1336}
+                sizes="(min-width: 768px) 360px, 90vw"
+                className="interior-image"
+                style={{ width: "100%", height: "auto", aspectRatio: "1278 / 1336", objectFit: "contain", display: "block" }}
+              />
+            </a>
           </div>
           <a
             href={amazonLink(VOL2_URL, "landing-block-3")}

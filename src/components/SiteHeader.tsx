@@ -26,11 +26,11 @@ export default function SiteHeader() {
           <a href="/#faq" className="nav-secondary">FAQ</a>
           <a href="/#about" className="nav-secondary">About</a>
           <a
-            href="#hero-email"
+            href="/playbook"
             className="btn btn-secondary"
             style={{ padding: "0.5rem 1rem", fontSize: "var(--text-small)" }}
           >
-            Get the playbook
+            Read Guide
           </a>
         </nav>
       </div>

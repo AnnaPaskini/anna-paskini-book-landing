@@ -72,7 +72,7 @@ export default function EmailForm({
         <div>
           <h4>Check your inbox</h4>
           <p>
-            The playbook is on its way to <strong>{email}</strong>. Delivery
+            The guide is on its way to <strong>{email}</strong>. Delivery
             usually takes under a minute - check spam if you don’t see it.
           </p>
         </div>

@@ -15,7 +15,7 @@ export default function AuthorBlock() {
         <div className="author-photo">
           <Image
             src="/images/author-photo.jpg"
-            alt="Anna Paskini"
+            alt="Anna Paskini, caregiver advocate and author of the Memory Activities for Men with Dementia book series"
             width={320}
             height={320}
             sizes="160px"

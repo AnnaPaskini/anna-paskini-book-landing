@@ -48,11 +48,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
     default:
-      "What to do during a dementia visit - a free 15-minute playbook | Anna Paskini",
+      "What to do during a dementia visit - a free 15-minute guide | Anna Paskini",
     template: "%s | Anna Paskini",
   },
   description:
-    "A free 15-Minute Visit Playbook for adult children caring for a parent with dementia. Plus a book series of memory activities for men.",
+    "A free 15-Minute Visit Guide for adult children caring for a parent with dementia. Plus a book series of memory activities for men.",
   openGraph: {
     type: "website",
     siteName: "Anna Paskini",
@@ -71,7 +71,7 @@ export default function RootLayout({
       lang="en"
       className={`${crimson.variable} ${inter.variable} ${jetbrains.variable} ${playfair.variable} ${fraunces.variable}`}
     >
-      <body data-accent="sage" data-serif="playfair" data-density="compact">
+      <body data-serif="playfair" data-density="compact">
         <a href="#main" className="skip-link">Skip to content</a>
         {children}
         {cfToken && (

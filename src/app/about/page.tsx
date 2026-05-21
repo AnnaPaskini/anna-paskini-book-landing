@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import SiteHeader from "@/components/SiteHeader";
 import FooterBlock from "@/components/blocks/FooterBlock";
+import { VOL1_URL, VOL2_URL, amazonLink } from "@/lib/amazon";
 
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL || "https://annapaskini.com";
@@ -79,7 +80,7 @@ export default function AboutPage() {
               <div className="about-photo">
                 <Image
                   src="/images/author-photo.jpg"
-                  alt="Anna Paskini"
+                  alt="Anna Paskini, caregiver advocate and author of the Memory Activities for Men with Dementia book series"
                   width={560}
                   height={560}
                   sizes="(min-width: 1024px) 280px, 240px"
@@ -145,6 +146,120 @@ export default function AboutPage() {
                 <span className="label">The methods behind the books</span>
                 <h2 id="methods-h2">How these books are made</h2>
               </header>
+
+              <div style={{
+                display: "flex",
+                flexWrap: "wrap",
+                gap: "3.5rem",
+                justifyContent: "center",
+                alignItems: "flex-start",
+                marginTop: "0",
+                marginBottom: "1rem"
+              }}>
+                {/* Book 1 Container */}
+                <div style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  gap: "3.5rem",
+                  width: "100%",
+                  maxWidth: "200px",
+                }}>
+                  <a
+                    href={amazonLink(VOL1_URL, "about-inline")}
+                    target="_blank"
+                    rel="noopener"
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      height: "200px",
+                      width: "100%",
+                    }}
+                    className="playbook-book-link vol1"
+                  >
+                    <Image
+                      src="/images/vol-1-3d-2.png"
+                      alt="Volume 1: Engines & Outdoors - Memory Activities for Men with Dementia activity book by Anna Paskini on Amazon"
+                      width={1278}
+                      height={1280}
+                      className="interior-image"
+                      style={{
+                        maxWidth: "100%",
+                        maxHeight: "100%",
+                        width: "auto",
+                        height: "auto",
+                        display: "block"
+                      }}
+                    />
+                  </a>
+                  <a
+                    href={amazonLink(VOL1_URL, "about-inline")}
+                    className="btn btn-secondary"
+                    target="_blank"
+                    rel="noopener"
+                    style={{
+                      width: "100%",
+                      fontSize: "0.875rem",
+                      padding: "0.625rem 1rem"
+                    }}
+                  >
+                    See on Amazon
+                  </a>
+                </div>
+
+                {/* Book 2 Container */}
+                <div style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  gap: "3.5rem",
+                  width: "100%",
+                  maxWidth: "200px",
+                }}>
+                  <a
+                    href={amazonLink(VOL2_URL, "about-inline")}
+                    target="_blank"
+                    rel="noopener"
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      height: "200px",
+                      width: "100%",
+                    }}
+                    className="playbook-book-link vol2"
+                  >
+                    <Image
+                      src="/images/vol-2-3d-2.png"
+                      alt="Volume 2: Memories & Heritage - Dementia Activity Book for Elderly Men by Anna Paskini on Amazon"
+                      width={1278}
+                      height={1300}
+                      className="interior-image"
+                      style={{
+                        maxWidth: "100%",
+                        maxHeight: "100%",
+                        width: "auto",
+                        height: "auto",
+                        display: "block"
+                      }}
+                    />
+                  </a>
+                  <a
+                    href={amazonLink(VOL2_URL, "about-inline")}
+                    className="btn btn-secondary"
+                    target="_blank"
+                    rel="noopener"
+                    style={{
+                      width: "100%",
+                      fontSize: "0.875rem",
+                      padding: "0.625rem 1rem"
+                    }}
+                  >
+                    See on Amazon
+                  </a>
+                </div>
+              </div>
 
               <div className="about-body">
                 <p>

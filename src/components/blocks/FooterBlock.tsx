@@ -1,5 +1,4 @@
 import Image from "next/image";
-import EmailForm from "../shared/EmailForm";
 
 export default function FooterBlock() {
   return (
@@ -13,21 +12,11 @@ export default function FooterBlock() {
         className="footer-flower"
       />
       <div className="footer-container">
-        <div className="footer-nudge">
-          <p>Still thinking? Get the free playbook anyway.</p>
-          <EmailForm
-            formId="footer-email"
-            label="Your email"
-            ctaText="Send →"
-            microcopy="One PDF. No newsletters. No subcribtion."
-          />
-        </div>
-
-        <div className="footer-divider" />
-
-        <div className="footer-bottom">
+        <div className="footer-clean-content">
+          <p className="footer-copyright">© 2026 Anna Paskini</p>
+          
           <nav className="footer-nav" aria-label="Footer">
-            <a href="#about">About</a>
+            <a href="/about">About</a>
             <a
               href="https://www.amazon.com/author/annapaskini"
               target="_blank"
@@ -37,7 +26,8 @@ export default function FooterBlock() {
             </a>
             <a href="#privacy">Privacy</a>
           </nav>
-          <p className="footer-copyright">© 2026 Anna Paskini</p>
+
+          <p className="footer-love">Made with love for real visits ❤️</p>
         </div>
       </div>
     </footer>

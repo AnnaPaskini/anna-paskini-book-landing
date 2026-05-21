@@ -16,7 +16,7 @@ const webPageSchema = {
   name: "Anna Paskini - Memory Activities for Men with Dementia",
   url: siteUrl,
   description:
-    "Free 15-Minute Visit Playbook for adult children caring for a parent with dementia, plus a book series of memory activities.",
+    "Free 15-Minute Visit Guide for adult children caring for a parent with dementia, plus a book series of memory activities.",
   author: {
     "@type": "Person",
     name: "Anna Paskini",

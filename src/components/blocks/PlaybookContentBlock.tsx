@@ -17,11 +17,11 @@ const rows: Row[] = [
     heading:
       "A 15-minute structure you can follow when you don’t know what to do.",
     body:
-      "The playbook gives you a clear four-part ritual: the arrival, a short tactile activity, a conversation anchor, and a calm goodbye. It is designed to be short, quiet, and structured to conserve everyone’s energy",
+      "The guide gives you a clear four-part ritual: the arrival, a short tactile activity, a conversation anchor, and a calm goodbye. It is designed to be short, quiet, and structured to conserve everyone’s energy",
     marginNote:
       "A good planning helps you leave the anxiety in the car before you even walk in. You are not performing. You are just spending time with someone you love.",
     caption:
-      "A woman sitting with her dad",
+      "Daughter gently holding her elderly father's hand during a home care visit, exemplifying empathetic dementia care support",
     tone: "warm",
     imageLeft: true,
     imageSrc: "/images/woman with dad.png",
@@ -31,11 +31,11 @@ const rows: Row[] = [
   {
     heading: "Meet the emotional blueprint, not the facts.",
     body:
-      "Conversations live in the emotional layer, not the factual one. The playbook gives you anchors that connect to what is still there - without asking for dates, sequence, or clarity.",
+      "Conversations live in the emotional layer, not the factual one. The guide gives you anchors that connect to what is still there - without asking for dates, sequence, or clarity.",
     marginNote:
       "When short-term memory is affected, sensory and emotional memory stay intact for much longer.",
     caption:
-      "two pairs of hands on a table, one older one younger, slight contact",
+      "Caregiver's hand reassuringly touching an older man's wrinkled hand on a table, illustrating reminiscence therapy connection",
     tone: "cool",
     imageLeft: false,
     imageSrc: "/images/two-pairs-of-hands.png",
@@ -55,7 +55,7 @@ const rows: Row[] = [
         </a>
       </>
     ),
-    caption: "elderly man at a window in shallow focus, neutral light",
+    caption: "Thoughtful elderly grandfather looking out the window in warm light, representing peaceful moments in memory care visiting",
     tone: "sage",
     imageLeft: true,
     imageSrc: "/images/elderly-man-at-a-window.png",
@@ -69,7 +69,7 @@ export default function PlaybookContentBlock() {
     <section className="playbook-content" aria-labelledby="playbook-h2">
       <div className="section-heading">
         <span className="label">Inside the PDF</span>
-        <h2 id="playbook-h2">What’s inside the playbook</h2>
+        <h2 id="playbook-h2">What’s inside the guide</h2>
       </div>
 
       {rows.map((row, i) => (
