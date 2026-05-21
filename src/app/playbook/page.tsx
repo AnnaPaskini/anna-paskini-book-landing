@@ -382,7 +382,7 @@ export default function PlaybookPage() {
           <section className="playbook-section bg-surface">
             <div className="playbook-container">
               <div className="playbook-books-cta" style={{ marginTop: 0, marginBottom: 0 }}>
-                <h2 style={{ fontSize: "1.85rem", color: "var(--color-text-strong)", marginBottom: "2rem", textAlign: "center" }}>
+                <h2 style={{ fontSize: "1.85rem", color: "var(--color-text-strong)", marginBottom: "2rem", textAlign: "center", fontFamily: "var(--font-serif)" }}>
                   Ready for more than just a 15-minute visit?
                 </h2>
                 <div style={{
@@ -496,6 +496,19 @@ export default function PlaybookPage() {
                     </a>
                   </div>
                 </div>
+
+                <p style={{
+                  textAlign: "center",
+                  fontSize: "1.0625rem",
+                  lineHeight: "1.6",
+                  color: "var(--color-text-strong)",
+                  fontFamily: "var(--font-sans)",
+                  maxWidth: "680px",
+                  margin: "3rem auto 0",
+                  paddingBottom: 0
+                }}>
+                  Each book is designed in a warm, retro style, featuring <strong>5 chapters</strong>, each with <strong>18 pages</strong> of memory-evoking activities—including <strong>Trivia</strong>, <strong>Mazes</strong>, <strong>Match the Meaning</strong>, <strong>Word Search</strong>, and <strong>Spot the Difference</strong>—complete with practical <strong>caregiver tips</strong> on every page to help guide the conversation.
+                </p>
 
               </div>
             </div>
