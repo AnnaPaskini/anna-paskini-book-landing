@@ -507,7 +507,7 @@ export default function PlaybookPage() {
                   margin: "3rem auto 0",
                   paddingBottom: 0
                 }}>
-                  Each book is designed in a warm, retro style, featuring <strong>5 chapters</strong>, each with <strong>18 pages</strong> of memory-evoking activities—including <strong>Trivia</strong>, <strong>Mazes</strong>, <strong>Match the Meaning</strong>, <strong>Word Search</strong>, and <strong>Spot the Difference</strong>—complete with practical <strong>caregiver tips</strong> on every page to help guide the conversation.
+                  Each book is designed in a warm, retro style, featuring <strong>5 chapters</strong>, each with <strong>18 pages</strong> of memory-evoking activities, including <strong>Trivia</strong>, <strong>Mazes</strong>, <strong>Match the Meaning</strong>, <strong>Word Search</strong>, and <strong>Spot the Difference</strong>, complete with practical <strong>caregiver tips</strong> on every page to help guide the conversation.
                 </p>
 
               </div>
