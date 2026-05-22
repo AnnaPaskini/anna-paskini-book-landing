@@ -565,7 +565,7 @@ p {
   font-weight: 500;
   letter-spacing: var(--tracking-wide);
   text-transform: uppercase;
-  color: var(--color-primary);
+  color: #5B7CB8;
   margin-bottom: 1.25rem;
 }
 
