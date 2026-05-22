@@ -2146,3 +2146,17 @@ body[data-density="comfy"] {
   margin: -0.5rem 0 1rem 0;
   letter-spacing: 0.02em;
 }
+
+.citation-link {
+  color: #0066cc;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.citation-link:hover {
+  color: #004999;
+}
+
+.citation-link:visited {
+  color: #6b3d99;
+}
