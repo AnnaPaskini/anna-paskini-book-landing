@@ -69,8 +69,8 @@ const articleSchema = {
     name: "Anna Paskini",
     url: "https://dadmemorybooks.com/about",
   },
-  datePublished: "2026-05-22",
-  dateModified: "2026-05-22",
+  datePublished: "2026-05-22T12:00:00+02:00",
+  dateModified: "2026-05-22T12:00:00+02:00",
   image: "https://dadmemorybooks.com/images/woman with dad.png",
   publisher: {
     "@type": "Person",
