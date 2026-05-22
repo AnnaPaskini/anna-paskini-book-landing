@@ -69,7 +69,7 @@ export default function PlaybookContentBlock() {
     <section className="playbook-content" aria-labelledby="playbook-h2">
       <div className="section-heading">
         <span className="label">Inside the PDF</span>
-        <h2 id="playbook-h2">What’s inside the guide</h2>
+        <h2 id="playbook-h2">What's inside the 15-minute visit guide for dementia caregivers</h2>
       </div>
 
       {rows.map((row, i) => (
