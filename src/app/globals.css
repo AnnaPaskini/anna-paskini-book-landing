@@ -553,8 +553,8 @@ p {
 
 @media (min-width: 1024px) {
   .hero-container {
-    grid-template-columns: 60% 40%;
-    gap: 4rem;
+    grid-template-columns: 56% 44%;
+    gap: 2.5rem;
     padding-inline: var(--space-page-x-desktop);
   }
 }
@@ -571,7 +571,7 @@ p {
 
 .hero h1 {
   text-wrap: balance;
-  max-width: 18ch;
+  max-width: 25ch;
 }
 
 .hero-subhead {
@@ -582,7 +582,7 @@ p {
   color: var(--color-text-muted);
   line-height: var(--leading-snug);
   margin-top: 1.25rem;
-  max-width: 32ch;
+  max-width: 36ch;
 }
 
 .hero-right {
@@ -605,7 +605,6 @@ p {
   pointer-events: none;
   z-index: 0;
   user-select: none;
-  filter: hue-rotate(265deg) saturate(0.7) brightness(0.9);
 }
 
 @media (min-width: 1024px) {
