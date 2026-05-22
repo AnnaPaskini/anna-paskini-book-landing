@@ -1266,7 +1266,7 @@ p {
     column-gap: 1.5rem;
     row-gap: 0.35rem;
   }
-  
+
   .book-facts div {
     display: flex;
     justify-content: space-between;
@@ -1892,7 +1892,8 @@ body[data-density="comfy"] {
 .playbook-article {
   color: #333333;
   position: relative;
-  overflow: hidden; /* Clips elements that extend beyond the screen width */
+  overflow: hidden;
+  /* Clips elements that extend beyond the screen width */
 }
 
 .playbook-container {
@@ -1958,7 +1959,7 @@ body[data-density="comfy"] {
     grid-template-columns: 60% 40%;
     gap: 4rem;
   }
-  
+
   .playbook-flower-column {
     grid-column: 2;
   }
@@ -2024,28 +2025,35 @@ body[data-density="comfy"] {
 }
 
 .playbook-intro-card {
-  background-color: var(--color-surface-alt); /* Cream background from main page */
-  border: 1px solid var(--color-border); /* Clear matching border */
+  background-color: var(--color-surface-alt);
+  /* Cream background from main page */
+  border: 1px solid var(--color-border);
+  /* Clear matching border */
   border-radius: 1.25rem;
   padding: 2.25rem 1.75rem;
   margin: 3rem 0 3.5rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.01);
-  font-style: italic; /* Make the entire section italic */
+  font-style: italic;
+  /* Make the entire section italic */
 }
 
 @media (min-width: 768px) {
   .playbook-intro-card {
     padding: 3.5rem 3.5rem;
-    margin: 3.5rem 0 4rem auto; /* Align / shift to the right */
-    max-width: 680px; /* Narrower width to allow asymmetry */
+    margin: 3.5rem 0 4rem auto;
+    /* Align / shift to the right */
+    max-width: 680px;
+    /* Narrower width to allow asymmetry */
   }
 }
 
 .playbook-intro-card h2 {
   margin-top: 0 !important;
-  color: var(--color-text-strong) !important; /* Clear charcoal text from main page */
+  color: var(--color-text-strong) !important;
+  /* Clear charcoal text from main page */
   font-size: 1.45rem;
-  font-style: italic; /* Keep the header italicized as well */
+  font-style: italic;
+  /* Keep the header italicized as well */
   margin-bottom: 1.25rem;
 }
 
@@ -2057,7 +2065,8 @@ body[data-density="comfy"] {
 
 .playbook-intro-card .playbook-callout {
   background-color: transparent;
-  border-left-color: var(--color-border-strong); /* Clear strong border from main page */
+  border-left-color: var(--color-border-strong);
+  /* Clear strong border from main page */
   padding: 0 0 0 1.25rem;
   margin: 1.5rem 0 0;
 }
@@ -2095,11 +2104,8 @@ body[data-density="comfy"] {
 .playbook-book-link.vol1 .interior-image {
   transform: scale(1.20) rotate(4deg) !important;
   transform-origin: center center;
-  filter: 
-    brightness(1.02)
-    drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.45)) 
-    drop-shadow(4px 6px 9px rgba(0, 0, 0, 0.28)) 
-    drop-shadow(10px 16px 24px rgba(0, 0, 0, 0.16)) !important;
+  filter:
+    brightness(1.02) drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.45)) drop-shadow(4px 6px 9px rgba(0, 0, 0, 0.28)) drop-shadow(10px 16px 24px rgba(0, 0, 0, 0.16)) !important;
   transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.3s ease !important;
 }
 
@@ -2107,12 +2113,8 @@ body[data-density="comfy"] {
   transform: scale(1.08) rotate(-2deg) !important;
   transform-origin: center center;
   /* Make Volume 2 brighter, higher contrast, and stronger expression */
-  filter: 
-    brightness(1.06) 
-    contrast(1.05) 
-    drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.45)) 
-    drop-shadow(4px 6px 9px rgba(0, 0, 0, 0.28)) 
-    drop-shadow(10px 16px 24px rgba(0, 0, 0, 0.16)) !important;
+  filter:
+    brightness(1.06) contrast(1.05) drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.45)) drop-shadow(4px 6px 9px rgba(0, 0, 0, 0.28)) drop-shadow(10px 16px 24px rgba(0, 0, 0, 0.16)) !important;
   transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.3s ease !important;
 }
 
@@ -2120,22 +2122,15 @@ body[data-density="comfy"] {
 .playbook-book-link.vol1:hover .interior-image,
 .playbook-book-link.vol1:focus-visible .interior-image {
   transform: scale(1.24) rotate(6deg) !important;
-  filter: 
-    brightness(1.05)
-    drop-shadow(1px 3px 3px rgba(0, 0, 0, 0.5)) 
-    drop-shadow(6px 10px 14px rgba(0, 0, 0, 0.32)) 
-    drop-shadow(14px 24px 32px rgba(0, 0, 0, 0.2)) !important;
+  filter:
+    brightness(1.05) drop-shadow(1px 3px 3px rgba(0, 0, 0, 0.5)) drop-shadow(6px 10px 14px rgba(0, 0, 0, 0.32)) drop-shadow(14px 24px 32px rgba(0, 0, 0, 0.2)) !important;
 }
 
 .playbook-book-link.vol2:hover .interior-image,
 .playbook-book-link.vol2:focus-visible .interior-image {
   transform: scale(1.12) rotate(-4deg) !important;
-  filter: 
-    brightness(1.10) 
-    contrast(1.08) 
-    drop-shadow(1px 3px 3px rgba(0, 0, 0, 0.5)) 
-    drop-shadow(6px 10px 14px rgba(0, 0, 0, 0.32)) 
-    drop-shadow(14px 24px 32px rgba(0, 0, 0, 0.2)) !important;
+  filter:
+    brightness(1.10) contrast(1.08) drop-shadow(1px 3px 3px rgba(0, 0, 0, 0.5)) drop-shadow(6px 10px 14px rgba(0, 0, 0, 0.32)) drop-shadow(14px 24px 32px rgba(0, 0, 0, 0.2)) !important;
 }
 
 .section-subhead {
@@ -2143,7 +2138,7 @@ body[data-density="comfy"] {
   font-size: 0.95rem;
   font-weight: 600;
   color: var(--color-text-muted);
-  margin: 0.25rem 0 1.25rem 0;
+  margin: 1rem 0 1.5rem 0;
   letter-spacing: 0.02em;
 }
 
