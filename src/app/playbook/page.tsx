@@ -88,16 +88,24 @@ export default function PlaybookPage() {
                 </p>
                 <ul>
                   <li style={{ marginBottom: "1rem" }}>
-                    <strong>Robert Butler</strong>, who reminded us in 1963 how much joy older adults find in sharing their own life stories.
+                    <a href="https://pubmed.ncbi.nlm.nih.gov/14017386/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline", color: "inherit" }}>
+                      <strong>Robert Butler</strong>
+                    </a>, who reminded us in 1963 how much joy older adults find in sharing their own life stories.
                   </li>
                   <li style={{ marginBottom: "1rem" }}>
-                    <strong>Teepa Snow</strong>, whose <em>Positive Approach to Care</em> completely reshaped how families speak to loved ones with dementia, choosing connection over correction.
+                    <a href="https://teepasnow.com" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline", color: "inherit" }}>
+                      <strong>Teepa Snow</strong>
+                    </a>, whose <em>Positive Approach to Care</em> completely reshaped how families speak to loved ones with dementia, choosing connection over correction.
                   </li>
                   <li style={{ marginBottom: "1rem" }}>
-                    <strong>Naomi Feil</strong>, who spent over forty years teaching us <em>Validation Therapy</em>, the art of meeting people exactly where they are.
+                    <a href="https://vfvalidation.org" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline", color: "inherit" }}>
+                      <strong>Naomi Feil</strong>
+                    </a>, who spent over forty years teaching us <em>Validation Therapy</em>, the art of meeting people exactly where they are.
                   </li>
                   <li style={{ marginBottom: "1rem" }}>
-                    <strong>The Alzheimer’s Association</strong>, who has lovingly refined caregiving protocols for decades.
+                    <a href="https://www.alz.org" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline", color: "inherit" }}>
+                      <strong>The Alzheimer's Association</strong>
+                    </a>, who has lovingly refined caregiving protocols for decades.
                   </li>
                 </ul>
                 <p>
