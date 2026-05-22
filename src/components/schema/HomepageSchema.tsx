@@ -143,7 +143,6 @@ const bookSeriesSchema = {
   author: {
     "@id": "https://dadmemorybooks.com/#anna-paskini",
   },
-  numberOfBooks: 2,
   hasPart: [
     { "@id": "https://dadmemorybooks.com/#book-vol1" },
     { "@id": "https://dadmemorybooks.com/#book-vol2" },
