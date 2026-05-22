@@ -17,7 +17,7 @@ export default function FooterBlock() {
           
           <nav className="footer-nav" aria-label="Footer">
             <a href="/about">About</a>
-            <a href="https://www.amazon.com/author/annapaskini" target="_blank" rel="noopener noreferrer">Books on Amazon</a>
+            <a href="https://www.amazon.com/dp/B0GZVB61HG?maas=maas_adg_331FA6AEA5CF43DCCC5E7DE9E369B590_afap_abs&ref_=aa_maas&tag=maas" target="_blank" rel="noopener noreferrer">Books on Amazon</a>
             <a href="#privacy">Privacy</a>
           </nav>
 
