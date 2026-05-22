@@ -2143,7 +2143,7 @@ body[data-density="comfy"] {
   font-size: 0.95rem;
   font-weight: 600;
   color: var(--color-text-muted);
-  margin: -0.5rem 0 1rem 0;
+  margin: 0.25rem 0 1.25rem 0;
   letter-spacing: 0.02em;
 }
 
