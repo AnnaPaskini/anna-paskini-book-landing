@@ -5,7 +5,7 @@ import FooterBlock from "@/components/blocks/FooterBlock";
 import { VOL1_URL, VOL2_URL, amazonLink } from "@/lib/amazon";
 
 const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://annapaskini.com";
+  process.env.NEXT_PUBLIC_SITE_URL || "https://dadmemorybooks.com";
 
 export const metadata: Metadata = {
   title: "About Anna Paskini - author of Memory Activities for Men with Dementia",
@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     title: "About Anna Paskini",
     description:
       "Anna Paskini writes the Memory Activities for Men with Dementia series. About the author, the methods behind the books, and how to reach her.",
+  },
+  alternates: {
+    canonical: "https://dadmemorybooks.com/about",
   },
 };
 

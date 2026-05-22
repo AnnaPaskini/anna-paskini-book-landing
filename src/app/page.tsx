@@ -9,7 +9,7 @@ import FooterBlock from "@/components/blocks/FooterBlock";
 import HomepageSchema from "@/components/schema/HomepageSchema";
 
 const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://annapaskini.com";
+  process.env.NEXT_PUBLIC_SITE_URL || "https://dadmemorybooks.com";
 
 const webPageSchema = {
   "@context": "https://schema.org",

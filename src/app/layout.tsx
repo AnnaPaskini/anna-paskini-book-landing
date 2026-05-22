@@ -42,24 +42,34 @@ const fraunces = Fraunces({
 });
 
 const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://annapaskini.com";
+  process.env.NEXT_PUBLIC_SITE_URL || "https://dadmemorybooks.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
     default:
-      "What to do during a dementia visit - a free 15-minute guide | Anna Paskini",
+      "Memory Activities for Men with Dementia | Book Series by Anna Paskini",
     template: "%s | Anna Paskini",
   },
   description:
-    "A free 15-Minute Visit Guide for adult children caring for a parent with dementia. Plus a book series of memory activities for men.",
+    "Activity books for fathers with dementia by Anna Paskini — two volumes of large-print puzzles, trivia, and 1970s reminiscence prompts. Plus a free 15-minute visit guide.",
   openGraph: {
     type: "website",
     siteName: "Anna Paskini",
-    images: ["/images/og-default.jpg"],
+    title: "Memory Activities for Men with Dementia | Book Series by Anna Paskini",
+    description: "Activity books for fathers with dementia by Anna Paskini — two volumes of large-print puzzles, trivia, and 1970s reminiscence prompts. Plus a free 15-minute visit guide.",
+    images: ["https://dadmemorybooks.com/images/og-default.jpg"],
   },
-  twitter: { card: "summary_large_image" },
+  twitter: {
+    card: "summary_large_image",
+    title: "Memory Activities for Men with Dementia | Book Series by Anna Paskini",
+    description: "Activity books for fathers with dementia by Anna Paskini — two volumes of large-print puzzles, trivia, and 1970s reminiscence prompts. Plus a free 15-minute visit guide.",
+    images: ["https://dadmemorybooks.com/images/og-default.jpg"],
+  },
   robots: { index: true, follow: true },
+  alternates: {
+    canonical: "https://dadmemorybooks.com",
+  },
 };
 
 export default function RootLayout({

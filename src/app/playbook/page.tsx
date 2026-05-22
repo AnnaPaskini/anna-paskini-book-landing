@@ -9,6 +9,22 @@ export const metadata: Metadata = {
   title: "The 15-Minute Visit Guide - Anna Paskini",
   description:
     "A small guide for the daughter, the son, the grandchild, or the friend who is about to walk into the room.",
+  alternates: {
+    canonical: "https://dadmemorybooks.com/playbook",
+  },
+  openGraph: {
+    type: "article",
+    siteName: "Anna Paskini",
+    title: "The 15-Minute Visit Guide - Anna Paskini",
+    description: "A small guide for the daughter, the son, the grandchild, or the friend who is about to walk into the room.",
+    images: ["https://dadmemorybooks.com/images/og-default.jpg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The 15-Minute Visit Guide - Anna Paskini",
+    description: "A small guide for the daughter, the son, the grandchild, or the friend who is about to walk into the room.",
+    images: ["https://dadmemorybooks.com/images/og-default.jpg"],
+  },
 };
 
 export default function PlaybookPage() {

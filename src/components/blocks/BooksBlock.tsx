@@ -42,6 +42,13 @@ export default function BooksBlock() {
               />
             </a>
           </div>
+          <dl className="book-facts">
+            <div><dt>Price</dt><dd>$12.99</dd></div>
+            <div><dt>Pages</dt><dd>98</dd></div>
+            <div><dt>Format</dt><dd>Paperback</dd></div>
+            <div><dt>ISBN</dt><dd>979-8258955838</dd></div>
+            <div><dt>Published</dt><dd>May 2026</dd></div>
+          </dl>
           <a
             href={amazonLink(VOL1_URL, "landing-block-3")}
             className="btn btn-green"
@@ -78,6 +85,13 @@ export default function BooksBlock() {
               />
             </a>
           </div>
+          <dl className="book-facts">
+            <div><dt>Price</dt><dd>$12.99</dd></div>
+            <div><dt>Pages</dt><dd>98</dd></div>
+            <div><dt>Format</dt><dd>Paperback</dd></div>
+            <div><dt>ISBN</dt><dd>979-8196864506</dd></div>
+            <div><dt>Published</dt><dd>May 2026</dd></div>
+          </dl>
           <a
             href={amazonLink(VOL2_URL, "landing-block-3")}
             className="btn btn-green"

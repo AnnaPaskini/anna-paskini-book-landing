@@ -121,6 +121,38 @@ const personSchema = {
   ...annaPaskini,
 };
 
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://dadmemorybooks.com/#website",
+  url: "https://dadmemorybooks.com",
+  name: "Dad Memory Books",
+  description:
+    "Memory activity books for men with dementia by Anna Paskini. Two-volume series of large-print puzzles, trivia, and 1970s reminiscence prompts, plus a free 15-minute visit guide for adult-child caregivers.",
+  publisher: {
+    "@id": "https://dadmemorybooks.com/#anna-paskini",
+  },
+  inLanguage: "en",
+};
+
+const bookSeriesSchema = {
+  "@context": "https://schema.org",
+  "@type": "BookSeries",
+  "@id": "https://dadmemorybooks.com/#book-series",
+  name: "Memory Lane: Activity Books for Men",
+  author: {
+    "@id": "https://dadmemorybooks.com/#anna-paskini",
+  },
+  numberOfBooks: 2,
+  hasPart: [
+    { "@id": "https://dadmemorybooks.com/#book-vol1" },
+    { "@id": "https://dadmemorybooks.com/#book-vol2" },
+  ],
+  genre: "Dementia Activity Books",
+  description:
+    "A two-volume series of reminiscence therapy activity books for men with early-to-mid stage dementia, set in the 1970s-80s. Each volume contains 5 chapters of large-print puzzles, trivia, and family-story prompts.",
+};
+
 export default function HomepageSchema() {
   return (
     <>
@@ -135,6 +167,14 @@ export default function HomepageSchema() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(bookSeriesSchema) }}
       />
     </>
   );
