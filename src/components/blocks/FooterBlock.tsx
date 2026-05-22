@@ -27,6 +27,18 @@ export default function FooterBlock() {
             <a href="#privacy">Privacy</a>
           </nav>
 
+          <div className="footer-contact">
+            <p>
+              Questions? Write to{" "}
+              <a href="mailto:anna.paskini@outlook.com" className="footer-email">
+                anna.paskini@outlook.com
+              </a>
+            </p>
+            <p className="footer-returns">
+              Returns and shipping are handled by Amazon under their standard policy.
+            </p>
+          </div>
+
           <p className="footer-love">Made with love for real visits ❤️</p>
         </div>
       </div>

@@ -2155,3 +2155,29 @@ body[data-density="comfy"] {
 .citation-link:visited {
   color: #6b3d99;
 }
+
+.footer-contact {
+  margin: 1.5rem 0;
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  text-align: center;
+  color: var(--color-text-muted);
+}
+
+.footer-contact p {
+  margin: 0.4rem 0;
+}
+
+.footer-email {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+.footer-email:hover {
+  color: #004999;
+}
+
+.footer-returns {
+  font-size: 0.8rem;
+  opacity: 0.85;
+}
