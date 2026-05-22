@@ -79,6 +79,71 @@ const faqs: FAQ[] = [
     aText:
       "Both volumes are on Amazon as paperbacks, $12.99 each. Amazon ships to most countries through their international fulfilment network. If Amazon doesn’t ship to your country, write to us and we’ll arrange a direct PDF copy.",
   },
+  {
+    q: "What activities work best for men with dementia?",
+    a: (
+      <p>
+        <strong>
+          Activities that connect to a man's lived experience — cars, tools, fishing, sports, music — work best because they tap into long-term memory, which stays accessible longer than recent memory.
+        </strong>{" "}
+        Large-print puzzles, trivia about the 1970s-80s, and tactile prompts (a polished wrench, an old photograph) open conversations without requiring him to remember names or dates. The Memory Activities for Men with Dementia series is built around this principle.
+      </p>
+    ),
+    aText:
+      "Activities that connect to a man's lived experience — cars, tools, fishing, sports, music — work best because they tap into long-term memory, which stays accessible longer than recent memory. Large-print puzzles, trivia about the 1970s-80s, and tactile prompts (a polished wrench, an old photograph) open conversations without requiring him to remember names or dates. The Memory Activities for Men with Dementia series is built around this principle.",
+  },
+  {
+    q: "What should you not say to someone with dementia?",
+    a: (
+      <p>
+        <strong>
+          Avoid questions with a right or wrong answer — "What day is it?", "Do you remember me?", "What did you have for breakfast?"
+        </strong>{" "}
+        These feel like quizzes, and his heart senses when he doesn't know. Don't correct factual mistakes; as Naomi Feil's Validation Therapy teaches, validate the feeling behind the words, not the fact. Skip heavy news, whispering across him, and rushing to finish his sentences.
+      </p>
+    ),
+    aText:
+      "Avoid questions with a right or wrong answer — \"What day is it?\", \"Do you remember me?\", \"What did you have for breakfast?\" These feel like quizzes, and his heart senses when he doesn't know. Don't correct factual mistakes; as Naomi Feil's Validation Therapy teaches, validate the feeling behind the words, not the fact. Skip heavy news, whispering across him, and rushing to finish his sentences.",
+  },
+  {
+    q: "How long should a dementia visit last?",
+    a: (
+      <p>
+        <strong>
+          A focused 15-20 minute visit is usually more meaningful than a long one.
+        </strong>{" "}
+        Energy fades fast for both of you, and a short, present visit leaves a calm emotional afterglow. The free 15-Minute Visit Guide on this site walks through exactly how to structure that time — arrival, one tactile anchor, conversation, and a calm goodbye.
+      </p>
+    ),
+    aText:
+      "A focused 15-20 minute visit is usually more meaningful than a long one. Energy fades fast for both of you, and a short, present visit leaves a calm emotional afterglow. The free 15-Minute Visit Guide on this site walks through exactly how to structure that time — arrival, one tactile anchor, conversation, and a calm goodbye.",
+  },
+  {
+    q: "Are reminiscence therapy activity books effective?",
+    a: (
+      <p>
+        <strong>
+          Yes — reminiscence therapy has been studied since Robert Butler's foundational 1963 paper <em>The Life Review</em>, and is endorsed by the Alzheimer's Association as a way to reduce agitation and improve mood in dementia care.
+        </strong>{" "}
+        Activity books make the methodology practical: structured prompts, large-print formats, and visual anchors give caregivers a soft place to start when conversation falters.
+      </p>
+    ),
+    aText:
+      "Yes — reminiscence therapy has been studied since Robert Butler's foundational 1963 paper The Life Review, and is endorsed by the Alzheimer's Association as a way to reduce agitation and improve mood in dementia care. Activity books make the methodology practical: structured prompts, large-print formats, and visual anchors give caregivers a soft place to start when conversation falters.",
+  },
+  {
+    q: "Can I use these books with someone in late-stage dementia?",
+    a: (
+      <p>
+        <strong>
+          The series is designed for early-to-mid stage dementia, where reading, puzzles, and short conversations are still possible.
+        </strong>{" "}
+        In later stages, sensory and emotional engagement matters more than activities — soft music from his youth, a familiar object in his hands, warm touch. You can still flip through the book together looking at the photos, but don't expect him to complete puzzles.
+      </p>
+    ),
+    aText:
+      "The series is designed for early-to-mid stage dementia, where reading, puzzles, and short conversations are still possible. In later stages, sensory and emotional engagement matters more than activities — soft music from his youth, a familiar object in his hands, warm touch. You can still flip through the book together looking at the photos, but don't expect him to complete puzzles.",
+  },
 
 ];
 
