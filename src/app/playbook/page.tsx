@@ -3,6 +3,7 @@ import Image from "next/image";
 import SiteHeader from "@/components/SiteHeader";
 import FooterBlock from "@/components/blocks/FooterBlock";
 import { VOL1_URL, VOL2_URL, amazonLink } from "@/lib/amazon";
+import PlaybookSchema from "@/components/schema/PlaybookSchema";
 
 export const metadata: Metadata = {
   title: "The 15-Minute Visit Guide - Anna Paskini",
@@ -430,7 +431,7 @@ export default function PlaybookPage() {
                       />
                     </a>
                     <a
-                      href={amazonLink(VOL1_URL, "playbook-inline")}
+                      href="https://www.amazon.com/dp/B0GZVB61HG?maas=maas_adg_331FA6AEA5CF43DCCC5E7DE9E369B590_afap_abs&ref_=aa_maas&tag=maas"
                       className="btn btn-secondary"
                       target="_blank"
                       rel="noopener"
@@ -482,7 +483,7 @@ export default function PlaybookPage() {
                       />
                     </a>
                     <a
-                      href={amazonLink(VOL2_URL, "playbook-inline")}
+                      href="https://www.amazon.com/dp/B0H23345ZM?maas=maas_adg_331FA6AEA5CF43DCCC5E7DE9E369B590_afap_abs&ref_=aa_maas&tag=maas"
                       className="btn btn-secondary"
                       target="_blank"
                       rel="noopener"
@@ -526,6 +527,7 @@ export default function PlaybookPage() {
         </article>
       </main>
       <FooterBlock />
+      <PlaybookSchema />
     </div>
   );
 }

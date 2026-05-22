@@ -6,6 +6,7 @@ import BooksBlock from "@/components/blocks/BooksBlock";
 import AuthorBlock from "@/components/blocks/AuthorBlock";
 import FAQBlock from "@/components/blocks/FAQBlock";
 import FooterBlock from "@/components/blocks/FooterBlock";
+import HomepageSchema from "@/components/schema/HomepageSchema";
 
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL || "https://annapaskini.com";
@@ -37,6 +38,7 @@ export default function Home() {
         <FAQBlock />
       </main>
       <FooterBlock />
+      <HomepageSchema />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
