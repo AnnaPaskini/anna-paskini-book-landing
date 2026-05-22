@@ -33,7 +33,7 @@ export default function AuthorBlock() {
         <p style={{ marginTop: "1.5rem" }}>
           <a
             href="/about"
-            className="btn btn-secondary"
+            className="btn btn-green"
           >
             Read more about Anna →
           </a>
