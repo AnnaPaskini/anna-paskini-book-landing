@@ -24,8 +24,8 @@ export default function FooterBlock() {
           <div className="footer-contact">
             <p>
               Questions? Write to{" "}
-              <a href="mailto:anna.paskini@outlook.com" className="footer-email">
-                anna.paskini@outlook.com
+              <a href="mailto:anna@dadmemorybooks.com" className="footer-email">
+                anna@dadmemorybooks.com
               </a>
             </p>
             <p className="footer-returns">

@@ -394,7 +394,7 @@ export default function PlaybookPage() {
                 <h3 style={{ marginTop: "2rem", fontStyle: "normal", color: "#333333", fontSize: "1.2rem", fontWeight: 700 }}>Please Write to Me</h3>
                 <p>
                   If a thought in this guide brought a little bit of light to your visit, or if you found a trick that worked beautifully, I would love to hear your story. If you found a moment that was difficult, you can share that with me too. You can always reach me directly at{" "}
-                  <a href="mailto:anna.paskini@outlook.com" style={{ textDecoration: "underline", color: "var(--color-primary)", fontStyle: "normal", fontWeight: 500 }}>anna.paskini@outlook.com</a>. I read and cherish every single message myself.
+                  <a href="mailto:anna@dadmemorybooks.com" style={{ textDecoration: "underline", color: "var(--color-primary)", fontStyle: "normal", fontWeight: 500 }}>anna@dadmemorybooks.com</a>. I read and cherish every single message myself.
                 </p>
                 <p style={{ marginTop: "2rem", fontStyle: "normal", fontWeight: 600 }}>
                   - Anna Paskini

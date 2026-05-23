@@ -6,7 +6,7 @@ export default function BooksBlock() {
     <section className="books" id="books" aria-labelledby="books-h2">
       <header className="section-heading">
         <span className="label">The book series</span>
-        <h2 id="books-h2">Ready for activities, not just structure?</h2>
+        <h2 id="books-h2">Ready for activities, not guide?</h2>
         <p className="section-subhead">Memory activity books for fathers with dementia</p>
         <p>These books prompt conversations about things from his life that you can connect over.</p>
       </header>

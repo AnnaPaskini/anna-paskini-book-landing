@@ -16,7 +16,7 @@ const annaPaskini = {
   description:
     "Author of the Memory Activities for Men with Dementia series. Caregiver advocate writing for adult children supporting a parent with dementia.",
   url: "https://dadmemorybooks.com/about",
-  email: "anna.paskini@outlook.com",
+  email: "anna@dadmemorybooks.com",
   jobTitle: "Author and Caregiver Advocate",
 };
 

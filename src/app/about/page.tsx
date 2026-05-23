@@ -31,7 +31,7 @@ const personSchema = {
   description:
     "Author of Memory Activities for Men with Dementia - activity books for adult-child caregivers, drawing on reminiscence therapy, Teepa Snow’s Positive Approach to Care, and Naomi Feil’s Validation Therapy.",
   image: `${siteUrl}/images/author-photo.jpg`,
-  email: "anna.paskini@outlook.com",
+  email: "anna@dadmemorybooks.com",
   knowsAbout: [
     "Reminiscence therapy",
     "Dementia caregiving",
@@ -129,8 +129,8 @@ export default function AboutPage() {
                   If something helps your family, I would love to hear about it.
                   If something does not, I would like to hear about that too.
                   You can write to me at{" "}
-                  <a href="mailto:anna.paskini@outlook.com">
-                    anna.paskini@outlook.com
+                  <a href="mailto:anna@dadmemorybooks.com">
+                    anna@dadmemorybooks.com
                   </a>
                   . I read every message myself.
                 </p>
