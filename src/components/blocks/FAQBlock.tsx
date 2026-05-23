@@ -6,130 +6,125 @@ type FAQ = { q: string; a: React.ReactNode; aText: string };
 
 const faqs: FAQ[] = [
   {
-    q: "Is the PDF really free, with no upsell trick?",
+    q: "These books are based on Reminiscence Therapy principles. What does that mean for my dad?",
     a: (
       <p>
-        <strong>Yes - downloaded directly with one click or read online.</strong>{" "}
-        No email registration, no credit card, no auto-enrolled paid newsletter, no upsell sequence.
-        You can read the entire guide online or save the PDF instantly.
+        <strong>
+          Reminiscence therapy uses long-term memory, which stays intact much longer than short-term memory, as the doorway into a conversation.
+        </strong>{" "}
+        Instead of asking your dad what he had for breakfast, you ask him about the first car he ever fixed, or the song his father used to whistle. The questions land on memories that are still there. Robert Butler described this as <em>The Life Review</em> in his 1963 paper, and the{" "}
+        <a href="https://www.alz.org/help-support/caregiving/daily-care/reminiscence-and-reminiscence-therapy" target="_blank" rel="noopener noreferrer">Alzheimer's Association</a>{" "}
+        recognises it as a gentle way to reduce agitation and lift mood. The books turn the methodology into something you can open on a Sunday afternoon.
       </p>
     ),
     aText:
-      "Yes - one PDF, downloaded directly with one click. No credit card, no auto-enrolled paid newsletter, no upsell sequence. You can download the PDF or read the entire guide online right now without sharing your email.",
+      "Reminiscence therapy uses long-term memory, which stays intact much longer than short-term memory, as the doorway into a conversation. Instead of asking your dad what he had for breakfast, you ask him about the first car he ever fixed, or the song his father used to whistle. The questions land on memories that are still there. Robert Butler described this as The Life Review in his 1963 paper, and the Alzheimer's Association recognises it as a gentle way to reduce agitation and lift mood. The books turn the methodology into something you can open on a Sunday afternoon.",
   },
   {
     q: "Who is this for?",
     a: (
       <p>
         <strong>
-          Adult children or other family caregivers, usually 35-65, caring for a parent with early-to-mid
-          stage dementia - most often from a distance.
+          Adult children or other family caregivers, usually 35-65, caring for a parent with early-to-mid stage dementia, most often from a distance.
         </strong>{" "}
         The guide works for any adult caregiver, who seeks structured support on how to get the visit under control and have meaningful interactions.
       </p>
     ),
     aText:
-      "Adult children, usually 35-55, caring for a parent with early-to-mid stage dementia - most often from a distance. The guide works for any adult-child caregiver, but it’s written for the person who flies in on weekends or holidays and doesn’t quite know how to fill the time.",
+      "Adult children or other family caregivers, usually 35-65, caring for a parent with early-to-mid stage dementia, most often from a distance. The guide works for any adult caregiver, who seeks structured support on how to get the visit under control and have meaningful interactions.",
   },
   {
-    q: "Is this medical advice?",
+    q: "What if my dad didn't work with tools or cars?",
     a: (
       <p>
         <strong>
-          No. This is practical, non-clinical guidance grounded in established
-          caregiving methodology.
+          The books are calibrated to the 1970s-80s, not to a specific profession.
         </strong>{" "}
-        It references Validation Therapy and Positive Approach to Care, but it
-        doesn’t replace a conversation with your parent’s physician or care
-        team. Always consult them about medications, behavioural changes, or
-        significant decline.
+        Even if your dad spent his life behind a desk, he still grew up in a world of muscle cars on the street, transistor radios on the kitchen counter, and Sunday fishing trips on TV. The trivia, the music, the family rituals from that era reach a much wider audience than men who turned wrenches for a living. Volume 1 leans toward engines and the outdoors, Volume 2 leans toward music, family and service. Most caregivers find that one of the two opens a door, often a door they didn't know was there.
       </p>
     ),
     aText:
-      "No. This is practical, non-clinical guidance grounded in established caregiving methodology. It references Validation Therapy and Positive Approach to Care, but it doesn’t replace a conversation with your parent’s physician or care team. Always consult them about medications, behavioural changes, or significant decline.",
+      "The books are calibrated to the 1970s-80s, not to a specific profession. Even if your dad spent his life behind a desk, he still grew up in a world of muscle cars on the street, transistor radios on the kitchen counter, and Sunday fishing trips on TV. The trivia, the music, the family rituals from that era reach a much wider audience than men who turned wrenches for a living. Volume 1 leans toward engines and the outdoors, Volume 2 leans toward music, family and service. Most caregivers find that one of the two opens a door, often a door they didn't know was there.",
   },
   {
-    q: "Will the books work for my mother, or only fathers?",
+    q: "How is this different from a regular puzzle book?",
     a: (
       <p>
         <strong>
-          The series is written specifically for men - the activities,
-          references, and imagery are calibrated to a man’s life experience in
-          the 1970s-80s.
+          A regular puzzle book tests him. This one talks to him.
         </strong>{" "}
-        Many caregivers tell us the methodology adapts well to women too, but
-        if you’re caring for a mother and want activities calibrated to her
-        life, this isn’t the right book yet. A women’s series is in progress.
+        Standard puzzle books, even the large-print ones, are built around getting the right answer. For a man with dementia, that quietly becomes another quiz he can fail. The Memory Activities series uses puzzles as a conversation prompt, not a test: a word search of fishing gear is really an invitation to tell you about the lake he used to drive to before sunrise. Every page carries a caregiver tip with one or two questions you can ask out loud, so the book sits open between you instead of in front of him.
       </p>
     ),
     aText:
-      "The series is written specifically for men - the activities, references, and imagery are calibrated to a man’s life experience in the 1970s-80s. Many caregivers tell us the methodology adapts well to women too, but if you’re caring for a mother and want activities calibrated to her life, this isn’t the right book yet. A women’s series is in progress.",
+      "A regular puzzle book tests him. This one talks to him. Standard puzzle books, even the large-print ones, are built around getting the right answer. For a man with dementia, that quietly becomes another quiz he can fail. The Memory Activities series uses puzzles as a conversation prompt, not a test: a word search of fishing gear is really an invitation to tell you about the lake he used to drive to before sunrise. Every page carries a caregiver tip with one or two questions you can ask out loud, so the book sits open between you instead of in front of him.",
   },
   {
-    q: "Where can I buy your books?",
+    q: "What activities are inside?",
     a: (
       <p>
         <strong>
-          Both volumes are on Amazon as paperbacks, links are attached to the book descriptions on this page.        </strong>{" "}
-        Amazon ships to most countries through their international fulfilment
-        network. If Amazon doesn’t ship to your country, write to us and we’ll
-        arrange a direct PDF copy.
-      </p>
-    ),
-    aText:
-      "Both volumes are on Amazon as paperbacks, $12.99 each. Amazon ships to most countries through their international fulfilment network. If Amazon doesn’t ship to your country, write to us and we’ll arrange a direct PDF copy.",
-  },
-  {
-    q: "What activities work best for men with dementia?",
-    a: (
-      <p>
-        <strong>
-          Activities that connect to a man's lived experience — cars, tools, fishing, sports, music — work best because they tap into long-term memory, which stays accessible longer than recent memory.
+          Each book has 5 chapters with 18 pages of activities: Trivia, Mazes, Match the Meaning, Word Search, and Spot the Difference.
         </strong>{" "}
-        Large-print puzzles, trivia about the 1970s-80s, and tactile prompts (a polished wrench, an old photograph) open conversations without requiring him to remember names or dates. The Memory Activities for Men with Dementia series is built around this principle.
+        All pages are large-print, set in a warm retro style, and grounded in the 1970s-80s. Trivia comes in two difficulties, so you can stay on easier questions on a hard day. Spot the Difference uses photographic scenes from the era, not abstract drawings. Every spread has a caregiver tip in the margin with a question or a small idea for what to say next.
       </p>
     ),
     aText:
-      "Activities that connect to a man's lived experience — cars, tools, fishing, sports, music — work best because they tap into long-term memory, which stays accessible longer than recent memory. Large-print puzzles, trivia about the 1970s-80s, and tactile prompts (a polished wrench, an old photograph) open conversations without requiring him to remember names or dates. The Memory Activities for Men with Dementia series is built around this principle.",
+      "Each book has 5 chapters with 18 pages of activities: Trivia, Mazes, Match the Meaning, Word Search, and Spot the Difference. All pages are large-print, set in a warm retro style, and grounded in the 1970s-80s. Trivia comes in two difficulties, so you can stay on easier questions on a hard day. Spot the Difference uses photographic scenes from the era, not abstract drawings. Every spread has a caregiver tip in the margin with a question or a small idea for what to say next.",
   },
   {
-    q: "What should you not say to someone with dementia?",
+    q: "What if I don't know much about his past?",
     a: (
       <p>
         <strong>
-          Avoid questions with a right or wrong answer — "What day is it?", "Do you remember me?", "What did you have for breakfast?"
+          You don't have to. The book carries the era for you.
         </strong>{" "}
-        These feel like quizzes, and his heart senses when he doesn't know. Don't correct factual mistakes; as Naomi Feil's Validation Therapy teaches, validate the feeling behind the words, not the fact. Skip heavy news, whispering across him, and rushing to finish his sentences.
+        Many adult children realise, sitting at the kitchen table, that they never asked their dad about his first job, or the car he drove on his honeymoon, or what was on the radio the summer he turned sixteen. The 1970s-80s context inside the book gives you the shared ground to ask. You don't need to know the names of his friends or the streets of his hometown. You just open a page about transistor radios and let him take the lead. Often, the stories you hear that afternoon are stories you've never heard before.
       </p>
     ),
     aText:
-      "Avoid questions with a right or wrong answer — \"What day is it?\", \"Do you remember me?\", \"What did you have for breakfast?\" These feel like quizzes, and his heart senses when he doesn't know. Don't correct factual mistakes; as Naomi Feil's Validation Therapy teaches, validate the feeling behind the words, not the fact. Skip heavy news, whispering across him, and rushing to finish his sentences.",
+      "You don't have to. The book carries the era for you. Many adult children realise, sitting at the kitchen table, that they never asked their dad about his first job, or the car he drove on his honeymoon, or what was on the radio the summer he turned sixteen. The 1970s-80s context inside the book gives you the shared ground to ask. You don't need to know the names of his friends or the streets of his hometown. You just open a page about transistor radios and let him take the lead. Often, the stories you hear that afternoon are stories you've never heard before.",
   },
   {
-    q: "How long should a dementia visit last?",
+    q: "Can I use these books with my mom?",
+    a: (
+      <p>
+        <strong>
+          The series is written specifically for men, the activities, references, and imagery are calibrated to a man's life experience in the 1970s-80s.
+        </strong>{" "}
+        Many caregivers tell us the methodology adapts well to women too, but if you're caring for a mother and want activities calibrated to her life, this isn't the right book yet. A women's series is in progress.
+      </p>
+    ),
+    aText:
+      "The series is written specifically for men, the activities, references, and imagery are calibrated to a man's life experience in the 1970s-80s. Many caregivers tell us the methodology adapts well to women too, but if you're caring for a mother and want activities calibrated to her life, this isn't the right book yet. A women's series is in progress.",
+  },
+  {
+    q: "How long does a visit using the book last?",
     a: (
       <p>
         <strong>
           A focused 15-20 minute visit is usually more meaningful than a long one.
         </strong>{" "}
-        Energy fades fast for both of you, and a short, present visit leaves a calm emotional afterglow. The free 15-Minute Visit Guide on this site walks through exactly how to structure that time — arrival, one tactile anchor, conversation, and a calm goodbye.
+        Energy fades fast for both of you, and a short, present visit leaves a calm emotional afterglow. The free{" "}
+        <a href="/playbook">15-Minute Visit Guide</a>{" "}
+        on this site walks through exactly how to structure that time: arrival, one tactile anchor, conversation, and a calm goodbye.
       </p>
     ),
     aText:
-      "A focused 15-20 minute visit is usually more meaningful than a long one. Energy fades fast for both of you, and a short, present visit leaves a calm emotional afterglow. The free 15-Minute Visit Guide on this site walks through exactly how to structure that time — arrival, one tactile anchor, conversation, and a calm goodbye.",
+      "A focused 15-20 minute visit is usually more meaningful than a long one. Energy fades fast for both of you, and a short, present visit leaves a calm emotional afterglow. The free 15-Minute Visit Guide on this site walks through exactly how to structure that time: arrival, one tactile anchor, conversation, and a calm goodbye.",
   },
   {
-    q: "Are reminiscence therapy activity books effective?",
+    q: "What should I NOT say during a dementia visit?",
     a: (
       <p>
         <strong>
-          Yes — reminiscence therapy has been studied since Robert Butler's foundational 1963 paper <em>The Life Review</em>, and is endorsed by the Alzheimer's Association as a way to reduce agitation and improve mood in dementia care.
+          Avoid questions with a right or wrong answer, "What day is it?", "Do you remember me?", "What did you have for breakfast?"
         </strong>{" "}
-        Activity books make the methodology practical: structured prompts, large-print formats, and visual anchors give caregivers a soft place to start when conversation falters.
+        These feel like quizzes, and his heart senses when he doesn't know. Don't correct factual mistakes; as Naomi Feil's Validation Therapy teaches, validate the feeling behind the words, not the fact. Skip heavy news, whispering across him, and rushing to finish his sentences.
       </p>
     ),
     aText:
-      "Yes — reminiscence therapy has been studied since Robert Butler's foundational 1963 paper The Life Review, and is endorsed by the Alzheimer's Association as a way to reduce agitation and improve mood in dementia care. Activity books make the methodology practical: structured prompts, large-print formats, and visual anchors give caregivers a soft place to start when conversation falters.",
+      "Avoid questions with a right or wrong answer, \"What day is it?\", \"Do you remember me?\", \"What did you have for breakfast?\" These feel like quizzes, and his heart senses when he doesn't know. Don't correct factual mistakes; as Naomi Feil's Validation Therapy teaches, validate the feeling behind the words, not the fact. Skip heavy news, whispering across him, and rushing to finish his sentences.",
   },
   {
     q: "Can I use these books with someone in late-stage dementia?",
@@ -138,13 +133,51 @@ const faqs: FAQ[] = [
         <strong>
           The series is designed for early-to-mid stage dementia, where reading, puzzles, and short conversations are still possible.
         </strong>{" "}
-        In later stages, sensory and emotional engagement matters more than activities — soft music from his youth, a familiar object in his hands, warm touch. You can still flip through the book together looking at the photos, but don't expect him to complete puzzles.
+        In later stages, sensory and emotional engagement matters more than activities, soft music from his youth, a familiar object in his hands, warm touch. You can still flip through the book together looking at the photos, but don't expect him to complete puzzles.
       </p>
     ),
     aText:
-      "The series is designed for early-to-mid stage dementia, where reading, puzzles, and short conversations are still possible. In later stages, sensory and emotional engagement matters more than activities — soft music from his youth, a familiar object in his hands, warm touch. You can still flip through the book together looking at the photos, but don't expect him to complete puzzles.",
+      "The series is designed for early-to-mid stage dementia, where reading, puzzles, and short conversations are still possible. In later stages, sensory and emotional engagement matters more than activities, soft music from his youth, a familiar object in his hands, warm touch. You can still flip through the book together looking at the photos, but don't expect him to complete puzzles.",
   },
-
+  {
+    q: "What makes a good gift for a man with dementia?",
+    a: (
+      <p>
+        <strong>
+          Something that meets him where he is now: tactile, familiar, and free of any pressure to perform.
+        </strong>{" "}
+        A good gift is not a test. It's a fidget tool that feels like an old workshop in his hands, a playlist of the music he danced to at nineteen, a soft blanket in a colour he used to wear, an old-style photo album of family scenes from the 1970s-80s. The Memory Activities books fit the same shelf: large print, warm retro design, conversation prompts rather than quizzes. The best gifts give him something to do with his hands and you something to talk about together.
+      </p>
+    ),
+    aText:
+      "Something that meets him where he is now: tactile, familiar, and free of any pressure to perform. A good gift is not a test. It's a fidget tool that feels like an old workshop in his hands, a playlist of the music he danced to at nineteen, a soft blanket in a colour he used to wear, an old-style photo album of family scenes from the 1970s-80s. The Memory Activities books fit the same shelf: large print, warm retro design, conversation prompts rather than quizzes. The best gifts give him something to do with his hands and you something to talk about together.",
+  },
+  {
+    q: "Is dementia the same as Alzheimer's?",
+    a: (
+      <p>
+        <strong>
+          No. Dementia is the umbrella term for a decline in memory and thinking that interferes with daily life. Alzheimer's is the most common cause of dementia, but not the only one.
+        </strong>{" "}
+        Other forms include vascular dementia, Lewy body dementia, and frontotemporal dementia, and each one progresses a little differently. For the purpose of a visit, the distinction matters less than you'd think: the methodology in these books, reminiscence, validation, calm short sessions, works across the common forms of dementia in early-to-mid stages. For a clinical picture of your dad's specific diagnosis, his neurologist or care team is the right conversation.
+      </p>
+    ),
+    aText:
+      "No. Dementia is the umbrella term for a decline in memory and thinking that interferes with daily life. Alzheimer's is the most common cause of dementia, but not the only one. Other forms include vascular dementia, Lewy body dementia, and frontotemporal dementia, and each one progresses a little differently. For the purpose of a visit, the distinction matters less than you'd think: the methodology in these books, reminiscence, validation, calm short sessions, works across the common forms of dementia in early-to-mid stages. For a clinical picture of your dad's specific diagnosis, his neurologist or care team is the right conversation.",
+  },
+  {
+    q: "I feel guilty because I find visits hard. Is that normal?",
+    a: (
+      <p>
+        <strong>
+          Yes. Caregiver guilt is one of the most documented emotional patterns in dementia care, and it doesn't mean you love him less.
+        </strong>{" "}
+        Visiting a parent with dementia is genuinely hard work, emotionally and physically. Naomi Feil and Teepa Snow, two of the most respected voices in dementia care, both speak openly about caregiver fatigue and the quiet shame that comes with it. Feeling drained after a visit is not a sign that you're failing him; it's a sign that you showed up fully. A shorter, structured visit, the kind the 15-Minute Visit Guide walks you through, tends to leave both of you with more in the tank than a long, anxious afternoon. Be honest with yourself about what you can give, and give that.
+      </p>
+    ),
+    aText:
+      "Yes. Caregiver guilt is one of the most documented emotional patterns in dementia care, and it doesn't mean you love him less. Visiting a parent with dementia is genuinely hard work, emotionally and physically. Naomi Feil and Teepa Snow, two of the most respected voices in dementia care, both speak openly about caregiver fatigue and the quiet shame that comes with it. Feeling drained after a visit is not a sign that you're failing him; it's a sign that you showed up fully. A shorter, structured visit, the kind the 15-Minute Visit Guide walks you through, tends to leave both of you with more in the tank than a long, anxious afternoon. Be honest with yourself about what you can give, and give that.",
+  },
 ];
 
 export default function FAQBlock() {
