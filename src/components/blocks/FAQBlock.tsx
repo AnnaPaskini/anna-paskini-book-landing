@@ -193,16 +193,6 @@ export default function FAQBlock() {
     });
   }
 
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqs.map((f) => ({
-      "@type": "Question",
-      name: f.q,
-      acceptedAnswer: { "@type": "Answer", text: f.aText },
-    })),
-  };
-
   return (
     <section className="faq" id="faq" aria-labelledby="faq-h2">
       <header className="section-heading">
@@ -221,11 +211,6 @@ export default function FAQBlock() {
           </details>
         ))}
       </div>
-
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      />
     </section>
   );
 }
