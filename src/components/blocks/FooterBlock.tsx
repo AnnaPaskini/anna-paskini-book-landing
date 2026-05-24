@@ -14,11 +14,19 @@ export default function FooterBlock() {
       <div className="footer-container">
         <div className="footer-clean-content">
           <p className="footer-copyright">© 2026 Anna Paskini</p>
-          
+
           <nav className="footer-nav" aria-label="Footer">
             <a href="/about">About</a>
-            <a href="https://www.amazon.com/dp/B0GZVB61HG?maas=maas_adg_331FA6AEA5CF43DCCC5E7DE9E369B590_afap_abs&ref_=aa_maas&tag=maas" target="_blank" rel="noopener noreferrer">Books on Amazon</a>
-            <a href="#privacy">Privacy</a>
+            <a href="/contact">Contact</a>
+            <a
+              href="https://www.amazon.com/dp/B0GZVB61HG?maas=maas_adg_331FA6AEA5CF43DCCC5E7DE9E369B590_afap_abs&ref_=aa_maas&tag=maas"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Books on Amazon
+            </a>
+            <a href="/privacy">Privacy</a>
+            <a href="/terms">Terms</a>
           </nav>
 
           <div className="footer-contact">
