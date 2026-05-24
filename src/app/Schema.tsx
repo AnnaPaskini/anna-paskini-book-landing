@@ -177,7 +177,7 @@ export default function Schema() {
                 description:
                     "Author of the Memory Activities for Men with Dementia series. Writes activity books grounded in reminiscence therapy for adult-child caregivers visiting fathers with early-to-mid stage dementia.",
                 sameAs: [
-                    "https://www.amazon.com/stores/Anna-Paskini/author/B0H2BQNLYT",
+                    "https://www.amazon.com/author/anna_paskini",
                 ],
             },
             {
