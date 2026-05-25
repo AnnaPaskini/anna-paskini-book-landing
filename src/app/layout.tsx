@@ -7,7 +7,6 @@ import {
   Fraunces,
 } from "next/font/google";
 import Script from "next/script";
-import Schema from "./Schema";
 import "./globals.css";
 
 const crimson = Crimson_Pro({
@@ -85,7 +84,7 @@ export default function RootLayout({
       className={`${crimson.variable} ${inter.variable} ${jetbrains.variable} ${playfair.variable} ${fraunces.variable}`}
     >
       <head>
-        <Schema />
+
       </head>
       <body data-serif="playfair" data-density="compact">
         <a href="#main" className="skip-link">Skip to content</a>

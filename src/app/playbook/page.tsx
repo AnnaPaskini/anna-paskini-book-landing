@@ -6,23 +6,23 @@ import { VOL1_URL, VOL2_URL, amazonLink } from "@/lib/amazon";
 import PlaybookSchema from "@/components/schema/PlaybookSchema";
 
 export const metadata: Metadata = {
-  title: "The 15-Minute Visit Guide - Anna Paskini",
+  title: "How to Have a Meaningful 15-Minute Dementia Visit - Anna Paskini",
   description:
-    "A small guide for the daughter, the son, the grandchild, or the friend who is about to walk into the room.",
+    "A practical, gentle guide for the daughter, the son, the grandchild, or the friend who is about to step into the room of a loved one with dementia.",
   alternates: {
     canonical: "https://dadmemorybooks.com/playbook",
   },
   openGraph: {
     type: "article",
     siteName: "Anna Paskini",
-    title: "The 15-Minute Visit Guide - Anna Paskini",
-    description: "A small guide for the daughter, the son, the grandchild, or the friend who is about to walk into the room.",
+    title: "How to Have a Meaningful 15-Minute Dementia Visit - Anna Paskini",
+    description: "A practical, gentle guide for the daughter, the son, the grandchild, or the friend who is about to step into the room of a loved one with dementia.",
     images: ["https://dadmemorybooks.com/images/og-default.jpg"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The 15-Minute Visit Guide - Anna Paskini",
-    description: "A small guide for the daughter, the son, the grandchild, or the friend who is about to walk into the room.",
+    title: "How to Have a Meaningful 15-Minute Dementia Visit - Anna Paskini",
+    description: "A practical, gentle guide for the daughter, the son, the grandchild, or the friend who is about to step into the room of a loved one with dementia.",
     images: ["https://dadmemorybooks.com/images/og-default.jpg"],
   },
 };
@@ -67,21 +67,21 @@ export default function PlaybookPage() {
                 </a>
               </div>
 
-              <h1>The 15-Minute Visit Guide</h1>
+              <h1>How to have a meaningful 15-minute visit with someone who has dementia</h1>
               <p className="playbook-cover-sub" style={{ marginBottom: "0.5rem" }}>
-                A gentle little guide for the daughter, the son, the grandchild, or the friend who is about to step into the room.
+                A practical, gentle guide for the daughter, the son, the grandchild, or the friend who is about to step into the room.
               </p>
               <p style={{ fontWeight: 600, fontSize: "1.15rem", marginBottom: "0.25rem", fontFamily: "var(--font-serif)", color: "var(--color-text-strong)" }}>
                 By Anna Paskini
               </p>
               <p style={{ fontStyle: "italic", color: "var(--color-text-muted)", marginBottom: "3rem", fontSize: "0.95rem" }}>
-                Author of the Memory Activities for Men with Dementia series
+                Author of the Memory Activities for Men with Dementia series. Grounded in reminiscence therapy and the work of Naomi Feil, Teepa Snow, and Robert Butler.
               </p>
 
               <div className="playbook-intro-card">
-                <h2>Hi there,</h2>
+                <h2>A Message for Caregivers</h2>
                 <p>
-                  I am not a doctor or a clinician. I wrote this quiet little guide simply because I needed it for myself. I wanted something comforting to read in the car on the way over, a gentle reminder to steady my heart so I wouldn't find myself sitting at the kitchen table wondering what to say.
+                  I am not a doctor or a clinician. I wrote this quiet, gentle guide simply because I needed it for myself. I wanted something comforting to read in the car on the way over, a gentle reminder to steady my heart so I wouldn't find myself sitting at the kitchen table wondering what to say.
                 </p>
                 <p>
                   What you will read here comes from beautiful minds who dedicated their entire lives to this kind of care:
@@ -90,7 +90,7 @@ export default function PlaybookPage() {
                   <li style={{ marginBottom: "1rem" }}>
                     <a href="https://pubmed.ncbi.nlm.nih.gov/14017386/" target="_blank" rel="noopener noreferrer" className="citation-link">
                       <strong>Robert Butler</strong>
-                    </a>, who reminded us in 1963 how much joy older adults find in sharing their own life stories.
+                    </a>, who reminded us in 1963 how much joy older adults find in sharing their own life stories through the process of life review.
                   </li>
                   <li style={{ marginBottom: "1rem" }}>
                     <a href="https://teepasnow.com" target="_blank" rel="noopener noreferrer" className="citation-link">
@@ -100,7 +100,7 @@ export default function PlaybookPage() {
                   <li style={{ marginBottom: "1rem" }}>
                     <a href="https://vfvalidation.org" target="_blank" rel="noopener noreferrer" className="citation-link">
                       <strong>Naomi Feil</strong>
-                    </a>, who spent over forty years teaching us <em>Validation Therapy</em>, the art of meeting people exactly where they are.
+                    </a>, who spent over forty years teaching us <em>Validation Therapy</em>, the art of meeting people exactly where they are emotionally.
                   </li>
                   <li style={{ marginBottom: "1rem" }}>
                     <a href="https://www.alz.org" target="_blank" rel="noopener noreferrer" className="citation-link">
@@ -127,278 +127,311 @@ export default function PlaybookPage() {
             </div>
           </section>
 
-          {/* Section 2: Before You Arrive */}
+          {/* Section 2: Why 15 Minutes Works */}
           <section className="playbook-section bg-surface-alt">
             <div className="playbook-container">
-              <h2>Before You Arrive</h2>
+              <h2>Why 15 minutes works better than an hour</h2>
               <p>
-                These minutes belong entirely to you, and they don't count toward your visit. Take all the time you need. Your fifteen minutes won't begin until you step into his room—everything before that is a soft space meant just to comfort and steady you.
-              </p>
-
-              <h3>Breathe Out the Day</h3>
-              <p>
-                Before you even open the car door, just sit quietly for a few moments. Let your shoulders drop. Notice if you're clenching your jaw, feel your hands relax on the steering wheel, and take a few deep, slow breaths. The visit flows so much more gently when you aren't carrying the rush of traffic, the busy morning, or the noise of the world inside with you.
-              </p>
-
-              <h3>Bring One Simple Anchor</h3>
-              <p>
-                Not five things. Just one. A single photograph from his youth, an old familiar magazine, a classic song queued up on your phone, or something tactile he used to hold. A specialized activity book on the table is wonderful, too. Bringing any more than that can feel crowded.
-              </p>
-              <p>
-                A book filled with large-print puzzles or real, beautiful photographs from the era he remembers best gives you both a soft place to rest your eyes and your hands when the words fade away.
-              </p>
-
-              <h3>Pack a Tiny Care Kit for Yourself</h3>
-              <p>
-                This isn't for him—it is a small act of kindness for you. Tucked into your bag, keep a few tissues, a little bottle of water, your phone tucked away on silent, and perhaps a mint for afterward. These tiny things quietly smooth away the friction points, keeping you feeling grounded and cared for.
-              </p>
-
-              <h3>Soften Your Expectations</h3>
-              <p>
-                Before you walk through the door, gently decide what a "good visit" looks like today. It doesn't need to be a long conversation, or a perfect recognition of your face. A single smile, a phrase from decades ago, or a quiet moment where his eyes clear and you can tell he truly feels your presence—any of these is an absolute gift.
-              </p>
-              <div className="playbook-callout">
-                <p>
-                  If we walk in looking for the person he used to be, we often leave holding a heavy heart. But if we walk in simply hoping to catch one sweet, fleeting moment, we almost always find it waiting for us.
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* Section 3: Walking In */}
-          <section className="playbook-section bg-surface">
-            <div className="playbook-container">
-              <h2>Walking In</h2>
-              <p style={{ fontStyle: "italic", color: "var(--color-text-muted)" }}>
-                How we arrive always speaks louder than the words we bring.
-              </p>
-
-              <h3>Step In Softly</h3>
-              <p>
-                Always walk in from the front, entering his line of sight before you begin to speak. A voice coming from behind can feel a bit startling. Even if the door is open and you have every right to be there, give a soft, polite knock. Those little moments of respect are deeply felt, even when memory fades.
-              </p>
-
-              <h3>Share Your Name with a Smile</h3>
-              <p>
-                Do this every single time, even if it feels a bit unusual. It takes away the heavy burden of him trying to guess. A simple, <em>"Hi Dad, it's Anna,"</em> works beautifully. Then, gently pull up a chair so your eyes meet right at his level. Standing over someone can inadvertently feel intimidating, but sitting close says, <em>I am right here with you.</em>
-              </p>
-
-              <h3>Let Your Hands Speak First</h3>
-              <p>
-                Warm touch often reaches the heart much faster than words can. Once you're comfortably seated, rest your hand gently over his, or place a palm softly on his forearm. If it feels comforting to him, just leave it there. You don't have to say a thing right away. Many men of his generation rarely receive gentle, non-clinical touch. A hand resting on a hand is a quiet, beautiful way of saying, <em>I've got you.</em>
-              </p>
-
-              <h3>Leave the Quizzes Behind</h3>
-              <p>
-                Skip the questions that have a "right" or "wrong" answer. Try not to ask what day it is, what year it is, or what he had for breakfast. Those feel like unexpected quizzes, and his heart can sense when he doesn't know the answer. He might not remember the question a few minutes later, but the feeling of frustration can linger.
-              </p>
-              <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
-                <li style={{ marginBottom: "0.5rem" }}>
-                  <strong>Instead of:</strong> <em>"Do you remember that summer we went to the lake?"</em>
-                </li>
-                <li style={{ marginBottom: "1.5rem" }}>
-                  <strong>Try:</strong> <em>"I was just thinking about that beautiful summer we spent by the water. The sun was so warm..."</em>
-                </li>
-              </ul>
-              <p>
-                This way, you happily bring the memory into the room with you, and he can step into the warmth of it right alongside you, wherever he is able.
-              </p>
-            </div>
-          </section>
-
-          {/* Section 4: The Visit Itself */}
-          <section className="playbook-section bg-primary-soft">
-            <div className="playbook-container">
-              <h2>The Visit Itself</h2>
-              <p>
-                This is the heart of your time together. You don't need to fill the room with constant talking; you just need to gently match his pace. Within the first minute or two, your heart will tell you what kind of day it is, and you can simply follow his lead.
-              </p>
-              <p>
-                Gently place the one item you brought on the table between you. Don't press it into his hands—just leave it where his eyes can naturally find it, and say something soft and brief: <em>"Look at this beautiful old Mustang."</em> Then, simply wait. Let his reaction guide your next step.
-              </p>
-
-              <h3>If He Reaches for It</h3>
-              <p>
-                Wonderful. Let him hold the photo, turn the pages, or feel the object. If a story begins to blossom, just listen with open arms. If the dates are a bit mixed up or the names drift, let them drift—you came for the joy of his voice, not a history report. Your only job is to listen with the same wide-eyed, loving attention you had when you were little.
-              </p>
-
-              <h3>If He is Quiet or Weary</h3>
-              <p>
-                Gently set the photo aside and try something comforting for his senses instead. Play a familiar old melody softly on your phone, or place an object in his hands that feels deeply natural to his life—a polished wrench, a smooth deck of cards, a baseball, or a favorite coffee mug. Familiar weights and textures can unlock feelings words cannot reach. Sitting in a quiet, shared silence is a beautiful way to visit. You are there to accompany him, not to interview him.
-              </p>
-
-              <h3>If He is Restless or Far Away</h3>
-              <p>
-                Put everything down. Move your chair to sit beside him rather than across from him, and quietly match his energy. If he is still, be still with him. If he is worried, give him something soft and comforting to hold.
-              </p>
-              <p>
-                If he says something that isn't factually true, there is no need to correct him. As Naomi Feil beautifully taught us, we validate the <em>feeling</em>, not the fact.
-              </p>
-              <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
-                <li style={{ marginBottom: "0.5rem" }}>
-                  <strong>If he says:</strong> <em>"I have to get to work right now."</em>
-                </li>
-                <li style={{ marginBottom: "0.5rem" }}>
-                  <strong>Don't say:</strong> <em>"Dad, you retired thirty years ago."</em>
-                </li>
-                <li style={{ marginBottom: "1.5rem" }}>
-                  <strong>Say softly:</strong> <em>"You always worked so hard to care for us. Tell me about your favorite projects."</em>
-                </li>
-              </ul>
-              <div className="playbook-callout" style={{ backgroundColor: "rgba(255, 255, 255, 0.45)", borderLeftColor: "var(--color-primary)" }}>
-                <p>
-                  A difficult day is never a failed visit. It is simply the day your loving presence matters the very most. He may not remember tomorrow that you came, but his nervous system will remember the deep peace of someone who sat beside him with an open, unflinching heart.
-                </p>
-              </div>
-
-              <h3>Let the Silences Rest Cozy</h3>
-              <p>
-                You don't have to fill every pause with words. Two people resting in the same room, breathing the same quiet air, is a full and beautiful visit. Often, we feel like we need to "perform" or keep a conversational show going, but you can let that pressure go. If the silence feels calm, just let it wrap around you both. He knows you are there.
-              </p>
-            </div>
-          </section>
-
-          {/* Section 5: When It Is Time to Go */}
-          <section className="playbook-section bg-surface">
-            <div className="playbook-container">
-              <h2>When It Is Time to Go</h2>
-              <p style={{ fontStyle: "italic", color: "var(--color-text-muted)" }}>
-                The way we say goodbye leaves a gentle emotional afterglow that can comfort him long after you walk out.
-              </p>
-
-              <h3>Blend into the Goodbye</h3>
-              <p>
-                Try to avoid abrupt announcements like, <em>"Well, my time is up, I have to go now."</em> Those can feel like a sudden loss. Instead, let the visit naturally wind down. Let your voice grow a bit softer, your movements slower, and leave your hand resting gently on his. Let him feel the visit settling into a peaceful rest rather than coming to a hard stop.
-              </p>
-
-              <h3>Tend to the Room</h3>
-              <p>
-                Small, physical kindnesses are remembered by the body. Straighten the cozy blanket over his lap, move his water glass within easy reach, or open the window for just a moment to let the fresh air in. If he has a favorite soft sweater or a throw blanket, place it right where his hand can easily find it. These quiet acts tell him someone who loves him was here.
-              </p>
-
-              <h3>Leave a Little Anchor</h3>
-              <p>
-                With the staff’s blessing, leave the photograph or the activity book right on the table where you sat together. Even if he doesn't remember the visit itself later, his eyes will land on that object, and a quiet, warm feeling will remind him that he is loved and watched over.
-              </p>
-
-              <h3>Say One Warm, Simple Thing</h3>
-              <p>
-                Before you stand up, leave him with one true, tender phrase: <em>"It was so beautiful to sit with you today."</em> <em>"I'm so glad I came."</em> <em>"I love you dearly."</em> Kiss the top of his head if that is your family’s way, and walk out gently. One glance back at the door is lovely. The second one is usually for our own peace of mind, not his—so let the first one be your sweet goodbye.
-              </p>
-            </div>
-          </section>
-
-          {/* Section 6: What to Gently Avoid */}
-          <section className="playbook-section bg-surface-alt">
-            <div className="playbook-container">
-              <h2>What to Gently Avoid</h2>
-              <p style={{ fontStyle: "italic", color: "var(--color-text-muted)", marginBottom: "1.5rem" }}>
-                A short, loving list to protect his peace and dignity:
-              </p>
-              <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
-                <li style={{ marginBottom: "1rem" }}>
-                  <strong>1. No Quizzing:</strong> Skip the quizzes and "who am I?" questions. They only cause unneeded worry.
-                </li>
-                <li style={{ marginBottom: "1rem" }}>
-                  <strong>2. No Correcting:</strong> Let the facts go. The emotion underneath his words is always the true reality.
-                </li>
-                <li style={{ marginBottom: "1rem" }}>
-                  <strong>3. No Heavy News:</strong> Protect his peace. Today is not the day to share difficult news or reopen old family disagreements.
-                </li>
-                <li style={{ marginBottom: "1rem" }}>
-                  <strong>4. No Whispering:</strong> Never speak about him to a nurse or family member as if he isn't right there. He picks up on the tone of the room beautifully.
-                </li>
-                <li style={{ marginBottom: "1rem" }}>
-                  <strong>5. No Rushing:</strong> If he is searching for a word, give him all the time in the world. Finishing his sentences is faster, but letting him find his way honors his dignity.
-                </li>
-                <li style={{ marginBottom: "1rem" }}>
-                  <strong>6. No Screens:</strong> Avoid handing him a phone or a tablet. Bright, fast screens can feel overwhelming and confusing.
-                </li>
-                <li style={{ marginBottom: "1rem" }}>
-                  <strong>7. No Surprise Treats:</strong> Always check with the care team before offering food or sweets, as swallowing needs can change safely behind the scenes.
-                </li>
-                <li style={{ marginBottom: "1rem" }}>
-                  <strong>8. No Overstaying:</strong> A beautiful, connected twenty-minute visit is worth infinitely more than an hour that leaves you both exhausted.
-                </li>
-                <li style={{ marginBottom: "1rem" }}>
-                  <strong>9. Save the Tears for the Car:</strong> It is completely okay to cry—this journey takes a lot of emotional strength. But try to save those tears for the drive home, as he will mirror your sadness without understanding why.
-                </li>
-              </ul>
-            </div>
-          </section>
-
-          {/* Section 7: Little Sparks of Comfort */}
-          <section className="playbook-section bg-surface">
-            <div className="playbook-container">
-              <h2>Little Sparks of Comfort</h2>
-              <p style={{ fontStyle: "italic", color: "var(--color-text-muted)", marginBottom: "1.5rem" }}>
-                When nothing else seems to work, these low-stakes ideas almost always bring a touch of peace:
-              </p>
-              <ul>
-                <li style={{ marginBottom: "1rem" }}>
-                  <strong>A Song from His Twenties:</strong> Not your youth—his. The music of our early adulthood is written deeply in the heart. Play it softly and watch his eyes light up or his fingers tap.
-                </li>
-                <li style={{ marginBottom: "1rem" }}>
-                  <strong>Warmth in His Palm:</strong> A cozy mug of herbal tea, a gentle hand warmer, or a smooth stone you warmed in your pocket on the way over. Physical warmth instantly soothes the nervous system.
-                </li>
-                <li style={{ marginBottom: "1rem" }}>
-                  <strong>Dignified Material:</strong> A page of pictures or a simple puzzle featuring vintage cars, old tools, or historic places. It feels respectful to the man he is, never childish.
-                </li>
-                <li style={{ marginBottom: "1rem" }}>
-                  <strong>Reading Aloud:</strong> Read a classic poem, an old newspaper article, or a chapter from a favorite book in a calm, rhythmic voice. The steady melody of your voice is incredibly therapeutic.
-                </li>
-                <li style={{ marginBottom: "1rem" }}>
-                  <strong>A Quick Breath of Fresh Air:</strong> If he is able, step outside or sit by an open doorway together for five minutes. The shift in light and fresh air can beautifully reset the afternoon.
-                </li>
-              </ul>
-            </div>
-          </section>
-
-          {/* Section 8: Reflections & Anna's Note */}
-          <section className="playbook-section bg-primary-soft">
-            <div className="playbook-container">
-              <h2>Write a Few Loving Notes Afterward</h2>
-              <p style={{ marginBottom: "1rem" }}>
-                Before you turn the key in your car ignition, take two minutes to type a few quick thoughts into your phone. Write down what brought a smile to his face, what song he hummed along to, or what object he liked holding.
-              </p>
-              <p style={{ marginBottom: "1.5rem" }}>
-                In the moment, these details feel unforgettable, but memory is fragile for us, too. Months from now, these notes will show you beautiful patterns you couldn't see at the time. They will remind you of the little victories—the tiny, beautiful moments that are absolutely worth repeating.
-              </p>
-
-              <h3 style={{ fontSize: "1.35rem", fontWeight: 700, marginTop: "2.5rem", marginBottom: "1rem", color: "var(--color-primary)" }}>If Today Felt Heavy</h3>
-              <p>
-                Some days, despite all your love and care, the visit will feel incredibly hard. He might be distant, you might be exhausted, or the room might feel too loud.
+                When you love someone who has dementia, the visit can feel like it should be long. You drove an hour to get there. You haven't seen him in two weeks. Surely a longer visit means more love.
               </p>
               <p style={{ fontWeight: 600, color: "var(--color-text-strong)" }}>
-                Please know this: It still mattered deeply that you came.
+                It usually means more exhaustion.
               </p>
               <p>
-                The journey of dementia moves in gentle waves, not a harsh straight line. A difficult afternoon doesn't mean the next one won't be filled with clear, beautiful sunshine. Go home, have a comforting meal, and rest. Cry if you need to. You are doing a beautiful, sacred thing, and you can try again whenever you have the strength.
+                A short, focused visit leaves both of you with energy and a calm emotional afterglow. A long visit, especially one without structure, often slides into tiredness, repeated questions, and a goodbye that feels heavy for everyone. As <a href="https://www.familycaregiversbc.ca/caregiver-learning-center/read-resources/tips-for-visiting-people-with-dementia" target="_blank" rel="noopener" className="citation-link">Family Caregivers BC writes</a>, "a short visit is usually better than a long one."
+              </p>
+              <p>
+                Fifteen to twenty minutes is enough to share one good moment together. That is the goal. Not to be remembered tomorrow, not to fix anything, not to make him recognise your face. Just one moment of connection. If you find a single second of it, your visit was a success.
+              </p>
+              <p>
+                This guide breaks that fifteen minutes into a quiet four-part ritual: how to walk in, what to do once you sit down, what to say, and how to leave. Each step is short on purpose.
+              </p>
+            </div>
+          </section>
+
+          {/* Section 3: Before You Arrive */}
+          <section className="playbook-section bg-surface">
+            <div className="playbook-container">
+              <h2>Before you arrive: preparing yourself, not the visit</h2>
+              <p>
+                These minutes do not count toward your fifteen. They belong entirely to you.
+              </p>
+              <p>
+                Before you open the car door, sit quietly for a moment. Let your shoulders drop. Notice if you are clenching your jaw, soften your hands on the steering wheel, take a few slow breaths. The visit flows much more gently when you are not carrying traffic, the busy morning, or the noise of the world inside with you.
+              </p>
+              <p>
+                People with dementia are deeply sensitive to non-verbal signals. As <a href="https://www.dementiauk.org/information-and-support/living-with-dementia/tips-for-communication/" target="_blank" rel="noopener" className="citation-link">Dementia UK explains</a>, a person with dementia can often understand far more than they can communicate, and small changes in your approach make a real difference. Your tense shoulders, your rushed breathing, your worried face - he will feel all of it before you say a word.
               </p>
 
-              <div className="playbook-author-block" style={{ marginTop: "4rem", paddingTop: "2.5rem", borderTop: "1px solid rgba(0, 0, 0, 0.1)", fontStyle: "italic", fontSize: "1.0625rem" }}>
-                <h2 style={{ marginTop: 0, fontSize: "1.5rem", color: "var(--color-primary)", fontStyle: "normal", marginBottom: "1.25rem" }}>A Note From My Heart to Yours</h2>
-                <p>
-                  I create activity books specifically for men living with dementia. They are the kind of books a loving son or daughter can open at the kitchen table on a Sunday afternoon, when the conversation has slowed down and the hours ahead feel beautifully long.
-                </p>
-                <p>
-                  I am not a doctor. I simply stepped into this world because someone precious in our own family needed a soft place to land. I went searching for a book we could look at together—something that treated an older gentleman with the true dignity and respect he deserved, rather than looking like a children's book.
-                </p>
-                <p>
-                  So, I poured my heart into turning what the experts teach into something tangible you can hold in your hands. Large print. True stories. Simple, engaging puzzles. And little tips in the margins for those moments when you just need a gentle whisper guiding you on what to say next.
-                </p>
-                <p>
-                  I can't promise every page will work. But my hope is that it might open a sweet ten-minute window where the stories flow and the connection returns. I am simply a daughter who tried.
-                </p>
+              <h3>Bring one simple anchor</h3>
+              <p>
+                Bring one simple anchor. Not five things. Just one. A single photograph from his youth, an old familiar magazine, a song from his twenties queued up on your phone, or something tactile he used to hold - a polished wrench, a smooth deck of cards, a familiar mug. A specialised activity book on the table works beautifully too. Bringing more than one item makes the table crowded and the choice tiring.
+              </p>
 
-                <h3 style={{ marginTop: "2rem", fontStyle: "normal", color: "#333333", fontSize: "1.2rem", fontWeight: 700 }}>Please Write to Me</h3>
+              <h3>Pack a tiny care kit for yourself</h3>
+              <p>
+                Tissues, a bottle of water, your phone on silent, a mint for afterwards. These small things are not for him. They are for you, so you stay grounded when the visit gets emotional.
+              </p>
+
+              <h3>Soften your expectations</h3>
+              <p>
+                Soften your expectations before you walk through the door. Decide what a good visit looks like today. It does not need to be a long conversation or a perfect recognition. A single smile, a phrase from decades ago, a moment when his eyes clear and you can tell he feels you there - any of these is a gift. If you walk in looking for the man he used to be, you often leave with a heavy heart. If you walk in hoping to catch one sweet, fleeting moment, you almost always find it.
+              </p>
+            </div>
+          </section>
+
+          {/* Step 1: How to walk into the room */}
+          <section className="playbook-section bg-surface-alt">
+            <div className="playbook-container">
+              <h2>Step 1: How to walk into the room</h2>
+              <p style={{ fontStyle: "italic", color: "var(--color-text-muted)" }}>
+                How you arrive matters more than what you say.
+              </p>
+              <p>
+                Walk in from the front, entering his line of sight before you speak. A voice coming from behind can feel startling, even frightening. Knock softly even if the door is open. Small acts of respect are deeply felt, even when memory fades.
+              </p>
+              <p>
+                Share your name with a smile, every single time. "Hi Dad, it's Anna." This sounds unusual at first, but it takes away the heavy burden of him trying to guess. Then pull a chair close so your eyes meet at his level. Standing over someone can feel intimidating. Sitting close says, I am right here with you.
+              </p>
+              <p>
+                Let your hands speak before your words do. Once you are seated, rest your hand gently over his, or place a palm softly on his forearm. If it feels comfortable, leave it there. Many men of his generation rarely received gentle, non-clinical touch in their lives. A hand resting on a hand is a quiet way of saying, I have you.
+              </p>
+              <p>
+                Avoid the questions that have a right or wrong answer. Do not ask what day it is, what year it is, or what he had for breakfast. These feel like quizzes, and his heart senses when he does not know the answer. He may not remember the question a few minutes later, but the feeling of frustration can linger.
+              </p>
+              <div className="playbook-callout" style={{ marginTop: "1.25rem", marginBottom: 0 }}>
+                <p style={{ margin: 0 }}>
+                  <strong>Instead of:</strong> <em>"Do you remember that summer we went to the lake?"</em>
+                </p>
+                <p style={{ margin: "0.5rem 0 0" }}>
+                  <strong>Try:</strong> <em>"I was just thinking about that beautiful summer by the water. The sun was so warm."</em>
+                </p>
+              </div>
+            </div>
+          </section>
+
+          {/* Step 2: The one item you should bring */}
+          <section className="playbook-section bg-surface">
+            <div className="playbook-container">
+              <h2>Step 2: The one item you should bring</h2>
+              <p style={{ fontStyle: "italic", color: "var(--color-text-muted)" }}>
+                This is where reminiscence therapy quietly does its work.
+              </p>
+              <p>
+                <a href="https://www.alz.org/help-support/caregiving/daily-care/reminiscence-and-reminiscence-therapy" target="_blank" rel="noopener" className="citation-link">Reminiscence therapy</a> is the practice of using long-term memory as a doorway into a conversation. The Alzheimer's Association recognises it as a way to reduce agitation and lift mood. <a href="https://www.healthline.com/health/alzheimers/activities-for-alzheimers" target="_blank" rel="noopener" className="citation-link">Healthline describes it</a> as a cognitive activity that helps with memory retrieval and a sense of connection to the past. Robert Butler first wrote about it in 1963 as <em>The Life Review</em>. The method is now over sixty years old, used in dementia care around the world.
+              </p>
+              <p>
+                In practice, it looks like this: you place one item on the table between you. Not in his hands - that can feel like a test. Just on the table where his eyes can find it naturally. You say something soft and brief: "Look at this beautiful old Mustang." Then you wait. His reaction guides the next step.
+              </p>
+              <p>
+                <strong>If he reaches for it:</strong> Wonderful. Let him hold the photo, turn the pages, feel the object. If a story begins to grow, listen with open arms. If the dates are mixed up or the names drift, let them drift. You came for the joy of his voice, not a history report.
+              </p>
+              <p>
+                <strong>If he is quiet or tired:</strong> Gently set the photo aside and try something for his senses instead. Play a familiar old melody softly on your phone. Place a familiar object in his hands - a polished wrench, a smooth deck of cards, a baseball, a favourite coffee mug. Familiar weights and textures can unlock feelings that words cannot reach.
+              </p>
+              <p>
+                <strong>If he is restless or far away:</strong> Put everything down. Move your chair to sit beside him rather than across from him. Match his energy. If he is still, be still with him. If he is worried, give him something soft to hold.
+              </p>
+              <p style={{ marginTop: "1rem", fontWeight: 600, color: "var(--color-text-strong)" }}>
+                The item is not the point. The item is permission to sit together without needing to perform.
+              </p>
+            </div>
+          </section>
+
+          {/* Step 3: What to talk about (and what to avoid) */}
+          <section className="playbook-section bg-surface-alt">
+            <div className="playbook-container">
+              <h2>Step 3: What to talk about (and what to avoid)</h2>
+              <p style={{ fontStyle: "italic", color: "var(--color-text-muted)" }}>
+                The most important thing to know about dementia conversations is this: <strong>validate the feeling, not the fact</strong>.
+              </p>
+              <p>
+                This is the core of Naomi Feil's Validation Therapy, developed over forty years of work with people in the later stages of dementia. The principle is simple. When someone says something that is not factually true, you do not correct them. You meet the emotion underneath the words.
+              </p>
+
+              <div className="playbook-callout" style={{ margin: "1.5rem 0" }}>
+                <p style={{ margin: 0 }}>
+                  <strong>If he says:</strong> <em>"I have to get to work right now."</em>
+                </p>
+                <p style={{ margin: "0.5rem 0 0" }}>
+                  <strong>Don't say:</strong> <em>"Dad, you retired thirty years ago."</em>
+                </p>
+                <p style={{ margin: "0.5rem 0 0" }}>
+                  <strong>Say softly:</strong> <em>"You always worked so hard to care for us. Tell me about your favourite projects."</em>
+                </p>
+              </div>
+
+              <p>
+                The factual correction wins nothing. It makes him feel exposed, anxious, and small. The validation meets him exactly where he is and turns a confusing moment into a warm one.
+              </p>
+              <p>
+                Let the silences rest. You do not have to fill every pause. Two people sitting in the same room, breathing the same quiet air, is a full visit. We often feel pressure to keep a conversation going. Let that pressure go. If the silence feels calm, let it.
+              </p>
+              <p>
+                Read his cues for tiredness. Repeated conversations, irritability, walking away, asking you to leave - these are not rejection. They are tiredness. Family Caregivers BC notes the same signs and recommends shortening the visit when they appear. A difficult day is never a failed visit. It is the day your loving presence matters the most. He may not remember tomorrow that you came, but his nervous system will remember the peace of someone who sat beside him with an open heart.
+              </p>
+            </div>
+          </section>
+
+          {/* Step 4: How to leave without breaking either of your hearts */}
+          <section className="playbook-section bg-surface">
+            <div className="playbook-container">
+              <h2>Step 4: How to leave without breaking either of your hearts</h2>
+              <p style={{ fontStyle: "italic", color: "var(--color-text-muted)" }}>
+                Goodbyes shape the emotional afterglow of the whole visit.
+              </p>
+              <p>
+                Avoid abrupt announcements like, "Well, my time is up, I have to go now." Those can feel like a sudden loss. Let the visit wind down. Your voice gets a little softer. Your movements get slower. Your hand stays resting on his. Let him feel the visit settling into rest rather than coming to a hard stop.
+              </p>
+              <p>
+                Tend to the room before you go. Straighten the blanket on his lap. Move his water glass within reach. Open the window for a moment for fresh air. Place his favourite sweater where his hand can find it. Small physical kindnesses are remembered by the body.
+              </p>
+              <p>
+                Leave a small anchor. With the staff's blessing, leave the photograph or the activity book on the table where you sat together. Even if he does not remember the visit later, his eyes will land on the object, and a quiet warm feeling will remind him he is loved.
+              </p>
+              <p>
+                Say one warm, simple thing before you stand up. "It was so good to sit with you today." "I'm glad I came." "I love you." Kiss the top of his head if that is your family's way. Walk out gently. One glance back is lovely. The second one is usually for our own peace of mind, not his - let the first be your goodbye.
+              </p>
+            </div>
+          </section>
+
+          {/* Section 8: Common Mistakes */}
+          <section className="playbook-section bg-surface-alt">
+            <div className="playbook-container">
+              <h2>Common mistakes during dementia visits</h2>
+              <p style={{ fontStyle: "italic", color: "var(--color-text-muted)", marginBottom: "1.5rem" }}>
+                A short, loving list of things that protect his peace and dignity:
+              </p>
+              <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
+                <li style={{ marginBottom: "1rem" }}>
+                  <strong>No quizzing.</strong> Skip "what day is it" and "who am I" and "do you remember." These cause silent worry.
+                </li>
+                <li style={{ marginBottom: "1rem" }}>
+                  <strong>No correcting.</strong> Let the facts go. The emotion underneath his words is the truth that matters.
+                </li>
+                <li style={{ marginBottom: "1rem" }}>
+                  <strong>No heavy news.</strong> Today is not the day for difficult news or old family disagreements.
+                </li>
+                <li style={{ marginBottom: "1rem" }}>
+                  <strong>No whispering.</strong> Never speak about him to a nurse or family member as if he is not there. He picks up the tone of the room.
+                </li>
+                <li style={{ marginBottom: "1rem" }}>
+                  <strong>No rushing.</strong> If he is searching for a word, give him time. Finishing his sentences is faster but takes away his dignity.
+                </li>
+                <li style={{ marginBottom: "1rem" }}>
+                  <strong>No screens.</strong> Bright, fast screens can be overwhelming and confusing.
+                </li>
+                <li style={{ marginBottom: "1rem" }}>
+                  <strong>No surprise food.</strong> Check with the care team before offering sweets or snacks. Swallowing needs can change quietly.
+                </li>
+                <li style={{ marginBottom: "1rem" }}>
+                  <strong>No overstaying.</strong> A connected twenty-minute visit is worth more than an exhausted hour.
+                </li>
+                <li style={{ marginBottom: "1rem" }}>
+                  <strong>Save the tears for the car.</strong> It is okay to cry. Just save it for the drive home, because he will mirror your sadness without understanding why.
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          {/* Section 9: Small Comforts */}
+          <section className="playbook-section bg-surface">
+            <div className="playbook-container">
+              <h2>Small comforts when nothing else works</h2>
+              <p style={{ fontStyle: "italic", color: "var(--color-text-muted)", marginBottom: "1.5rem" }}>
+                When the visit feels stuck, these low-stakes ideas almost always help:
+              </p>
+              <ul>
+                <li style={{ marginBottom: "1.5rem" }}>
+                  <strong>A song from his twenties.</strong> Not your youth - his. The music of early adulthood is written deeply in the heart. Play it softly and watch his eyes light up or his fingers tap. <a href="https://www.healthline.com/health/alzheimers/activities-for-alzheimers" target="_blank" rel="noopener" className="citation-link">Healthline notes that music memory often remains intact</a> in people with Alzheimer's even during rapid cognitive decline.
+                </li>
+                <li style={{ marginBottom: "1.5rem" }}>
+                  <strong>Warmth in his palm.</strong> A mug of herbal tea. A hand warmer. A smooth stone you warmed in your pocket on the way over. Physical warmth soothes the nervous system instantly.
+                </li>
+                <li style={{ marginBottom: "1.5rem" }}>
+                  <strong>Dignified material.</strong> A page of vintage cars, old tools, or historic places. Treat him like the man he is, not a child. This is the principle behind the Memory Activities for Men with Dementia series - large print, real photographs from the 1970s-80s, caregiver tips in the margin, designed to sit open between you on the table.
+                </li>
+                <li style={{ marginBottom: "1.5rem" }}>
+                  <strong>Reading aloud.</strong> A classic poem, an old newspaper article, a chapter from a favourite book. The steady melody of your voice is therapeutic, whether or not he follows the words.
+                </li>
+                <li style={{ marginBottom: "1.5rem" }}>
+                  <strong>A breath of fresh air.</strong> If he is able, step outside or sit near an open doorway for five minutes. A shift in light and fresh air can reset the afternoon.
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          {/* Section 10: If Today Felt Hard */}
+          <section className="playbook-section bg-primary-soft">
+            <div className="playbook-container">
+              <h2>If today's visit felt hard</h2>
+              <p>
+                Some days, despite all your love, the visit is hard. He is distant. You are exhausted. The room is loud. Please know this: <strong>it still mattered that you came.</strong>
+              </p>
+              <p>
+                Dementia moves in waves, not a straight line. A difficult afternoon does not mean the next one will not be filled with quiet sunshine. Go home. Have a comforting meal. Rest. Cry if you need to. Caregiver guilt is one of the most documented emotional patterns in dementia care, and feeling drained after a visit is not a sign that you are failing him - it is a sign that you showed up fully.
+              </p>
+              <p style={{ fontWeight: 600, color: "var(--color-text-strong)", marginTop: "1rem" }}>
+                You are doing something quiet and sacred. You can try again whenever you have the strength.
+              </p>
+            </div>
+          </section>
+
+          {/* Section 11: PDF CTA */}
+          <section className="playbook-section bg-surface">
+            <div className="playbook-container" style={{ textAlign: "center" }}>
+              <h2>Get the full guide as a PDF</h2>
+              <p style={{ maxWidth: "600px", margin: "0 auto 2rem" }}>
+                This article is a summary of the full <em>15-Minute Visit Guide</em>, a free 12-page PDF you can save, print, or keep on your phone. It includes more detailed scripts, comfort sparks, and a closing note from Anna to caregivers. No email required.
+              </p>
+              <div style={{ display: "flex", justifyContent: "center" }}>
+                <a
+                  href="/pdfs/The_15_Minute_Visit_Guide.pdf"
+                  download="The_15_Minute_Visit_Guide.pdf"
+                  className="btn btn-secondary"
+                  style={{
+                    padding: "0.875rem 2rem",
+                    fontSize: "1.05rem",
+                    fontFamily: "var(--font-sans)",
+                  }}
+                >
+                  Download the full PDF →
+                </a>
+              </div>
+            </div>
+          </section>
+
+          {/* Section 12: About Anna Paskini */}
+          <section className="playbook-section bg-surface-alt">
+            <div className="playbook-container">
+              <h2>About Anna Paskini</h2>
+              <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>
                 <p>
-                  If a thought in this guide brought a little bit of light to your visit, or if you found a trick that worked beautifully, I would love to hear your story. If you found a moment that was difficult, you can share that with me too. You can always reach me directly at{" "}
-                  <a href="mailto:anna@dadmemorybooks.com" style={{ textDecoration: "underline", color: "var(--color-primary)", fontStyle: "normal", fontWeight: 500 }}>anna@dadmemorybooks.com</a>. I read and cherish every single message myself.
+                  I write activity books for men with dementia - the kind a daughter or son can open at the kitchen table on a Sunday afternoon, when the conversation has slowed and the hours ahead feel long. I am not a clinician. I built these tools because someone precious in our own family needed a soft place to land, and I went looking for materials that treated an older gentleman with the dignity he deserved, rather than looking like children's books.
                 </p>
-                <p style={{ marginTop: "2rem", fontStyle: "normal", fontWeight: 600 }}>
-                  - Anna Paskini
+                <p>
+                  The methods in this guide come from people who do this for a living: Robert Butler, Teepa Snow, Naomi Feil, and the Alzheimer's Association. The shape of these pages comes from one daughter who tried.
                 </p>
+                <div style={{
+                  marginTop: "1.5rem",
+                  display: "flex",
+                  flexWrap: "wrap",
+                  gap: "1.5rem",
+                  alignItems: "center",
+                  fontSize: "1.05rem"
+                }}>
+                  <a href="/about" className="citation-link" style={{ fontWeight: 600 }}>
+                    Read more about Anna →
+                  </a>
+                  <span style={{ color: "var(--color-border-strong)" }}>·</span>
+                  <a href="https://www.amazon.com/author/anna_paskini" target="_blank" rel="noopener" className="citation-link" style={{ fontWeight: 600 }}>
+                    See the books on Amazon →
+                  </a>
+                  <span style={{ color: "var(--color-border-strong)" }}>·</span>
+                  <span>
+                    Email me: <a href="mailto:anna@dadmemorybooks.com" className="citation-link" style={{ fontWeight: 600 }}>anna@dadmemorybooks.com</a>
+                  </span>
+                </div>
               </div>
             </div>
           </section>
