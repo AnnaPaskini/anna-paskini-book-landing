@@ -24,7 +24,7 @@ export default function SiteHeader() {
         <nav className="site-nav" aria-label="Primary">
           <a href="/#books">Books</a>
           <a href="/#faq" className="nav-secondary">FAQ</a>
-          <a href="/#about" className="nav-secondary">About</a>
+          <a href="/#about" className="nav-secondary">Author</a>
           <a
             href="/playbook"
             className="btn btn-secondary"

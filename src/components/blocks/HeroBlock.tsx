@@ -17,15 +17,6 @@ export default function HeroBlock() {
         </div>
 
         <div className="hero-right">
-          <Image
-            src="/images/Flower_blue.png"
-            alt=""
-            aria-hidden="true"
-            width={600}
-            height={1200}
-            className="hero-flower"
-            priority
-          />
           <a
             href="/playbook"
             className="mockup-link"
@@ -58,6 +49,16 @@ export default function HeroBlock() {
             </a>
           </div>
         </div>
+
+        <Image
+          src="/images/Flower_blue.png"
+          alt=""
+          aria-hidden="true"
+          width={600}
+          height={1200}
+          className="hero-flower"
+          priority
+        />
       </div>
     </section>
   );
