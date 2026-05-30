@@ -13,11 +13,27 @@ const annaPaskini = {
   "@type": "Person",
   "@id": "https://dadmemorybooks.com/#anna-paskini",
   name: "Anna Paskini",
+  alternateName: "Anna Paskini",
   description:
-    "Author of the Memory Activities for Men with Dementia series. Caregiver advocate writing for adult children supporting a parent with dementia.",
+    "Author of the Memory Activities for Men with Dementia series. Caregiver advocate writing for adult children supporting a parent with dementia. Independently published via Amazon KDP.",
   url: "https://dadmemorybooks.com/about",
   email: "anna@dadmemorybooks.com",
   jobTitle: "Author and Caregiver Advocate",
+  image: "https://dadmemorybooks.com/images/author-photo.jpg",
+  sameAs: [
+    "https://www.amazon.com/author/anna_paskini"
+  ],
+  knowsAbout: [
+    "Dementia Caregiving",
+    "Reminiscence Therapy",
+    "Validation Therapy",
+    "Activity Book Design for Seniors",
+    "Adult-Child Caregiving"
+  ],
+  worksFor: {
+    "@type": "Organization",
+    name: "Independent Author"
+  }
 };
 
 const vol1Schema = {
@@ -33,8 +49,7 @@ const vol1Schema = {
   datePublished: "2026-05",
   author: annaPaskini,
   publisher: {
-    "@type": "Organization",
-    name: "Independently published (Amazon KDP)",
+    "@id": "https://dadmemorybooks.com/#anna-paskini",
   },
   isPartOf: {
     "@type": "BookSeries",
@@ -81,8 +96,7 @@ const vol2Schema = {
   datePublished: "2026-05",
   author: annaPaskini,
   publisher: {
-    "@type": "Organization",
-    name: "Independently published (Amazon KDP)",
+    "@id": "https://dadmemorybooks.com/#anna-paskini",
   },
   isPartOf: {
     "@type": "BookSeries",
