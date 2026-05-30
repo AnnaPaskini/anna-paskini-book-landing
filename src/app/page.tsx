@@ -7,23 +7,7 @@ import AuthorBlock from "@/components/blocks/AuthorBlock";
 import FAQBlock from "@/components/blocks/FAQBlock";
 import FooterBlock from "@/components/blocks/FooterBlock";
 import HomepageSchema from "@/components/schema/HomepageSchema";
-
-const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://dadmemorybooks.com";
-
-const webPageSchema = {
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  name: "Anna Paskini - Memory Activities for Men with Dementia",
-  url: siteUrl,
-  description:
-    "Free 15-Minute Visit Guide for adult children caring for a parent with dementia, plus a book series of memory activities.",
-  author: {
-    "@type": "Person",
-    name: "Anna Paskini",
-    url: `${siteUrl}/about`,
-  },
-};
+import FaqSchema from "@/components/schema/FaqSchema";
 
 export default function Home() {
   return (
@@ -39,10 +23,7 @@ export default function Home() {
       </main>
       <FooterBlock />
       <HomepageSchema />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
-      />
+      <FaqSchema />
     </>
   );
 }
